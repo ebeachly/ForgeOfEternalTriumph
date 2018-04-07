@@ -48,6 +48,10 @@ class Character {
         return params.GetInt("_ Endless Difficulty");
     }
 
+    int getScoreValue() {
+        return 1;
+    }
+
     bool isCarryingWeapon(int weaponId) {
         for (int i = 0; i < 6; ++i)
         {
@@ -78,21 +82,34 @@ class Character {
         }
     }
 
+    bool dead = false;
     float timeOfDeath = 0;
-    float lastTimeAttacking = 0;
+    float lastTimeAttackState = 0;
+
+    float getLastTimeAttacking() {
+        float lastKnifeTime = mo.GetFloatVar("last_knife_time");
+        //Convert to our time
+        lastKnifeTime = (lastKnifeTime - mo.GetFloatVar("time")) + the_time;
+        if (lastKnifeTime > lastTimeAttackState) {
+            return lastKnifeTime;
+        } else {
+            return lastTimeAttackState;
+        }
+    }
+    
     int lastCharacterToDamage = -1;
 
     protected float lastPermanentHealth = 1.0f;
     protected float lastBloodHealth = 1.0f;
     void update() {
         //If this player is not already considered dead
-        if (timeOfDeath == 0)
+        if (!dead)
         {
             //What is their health?
             float currentPermanentHealth = getPermanentHealth();
             float currentBloodHealth = getBloodHealth();
             //Check if damage was taken
-            if (currentPermanentHealth < lastPermanentHealth || currentBloodHealth < lastBloodHealth || beingExecuted()) {
+            if ((currentPermanentHealth < lastPermanentHealth) || (currentBloodHealth < lastBloodHealth) || beingExecuted()) {
                 //Who was the last person to attack this character?
                 int attacker = mo.GetIntVar("attacked_by_id");
                 //Clear the flag so we can distinguish attacks
@@ -105,7 +122,9 @@ class Character {
                     {
                         //Did this actually happen?
                         //Check when that character last attacked, and how far away they are
-                        if (((the_time - characters[i].lastTimeAttacking) < 0.1) && distance(characters[i].getPosition(), getPosition()) < 3 )
+                        float timeSinceLastAttack = the_time - characters[i].getLastTimeAttacking();
+                        float distanceBetweenCombatants = distance(characters[i].getPosition(), getPosition());
+                        if ((timeSinceLastAttack < 0.5) && (distanceBetweenCombatants < 3) || beingExecuted())
                         {
                             lastCharacterToDamage = attacker;
                         } else {
@@ -139,12 +158,8 @@ class Character {
 
         if (isKnockedOut())
         {
-            if (timeOfDeath == 0)
+            if (!dead)
             {
-                sparkles = false;
-                deaths += 1;
-                currentScore = 0;
-                timeOfDeath = the_time;
                 //Who was the last person to damage this character?
                 int killer = lastCharacterToDamage;
                 //Who is this character?
@@ -155,7 +170,7 @@ class Character {
                     {
                         found = true;
                         //Attribute the kill to this player
-                        players[i].scoredKill(id, getDifficulty());
+                        players[i].scoredKill(id, getScoreValue());
                         if (healsKiller)
                         {
                             players[i].fullyHeal();
@@ -174,32 +189,29 @@ class Character {
                     {
                         found = true;
                         //Attribute the kill to this npc
-                        npcs[i].scoredKill(id, getDifficulty());
+                        npcs[i].scoredKill(id, getScoreValue());
                     }
                 }
+                sparkles = false;
+                deaths += 1;
+                currentScore = 0;
+                timeOfDeath = the_time;
+                dead = true;
                 lastCharacterToDamage = -1;
             }
-            lastTimeAttacking = 0;
+            lastTimeAttackState = 0;
         } else {
-            timeOfDeath = 0;
             if (getState() == attackState) {
-                lastTimeAttacking = the_time;
+                lastTimeAttackState = the_time;
             }
         }
     }
 
     float timeSinceDeath(float currentTime) {
-        if (isKnockedOut())
+        if (dead)
         {
-            if (timeOfDeath == 0)
-            {
-                timeOfDeath = currentTime;
-                return 0;
-            } else {
-                return currentTime - timeOfDeath;
-            }
+            return currentTime - timeOfDeath;
         } else {
-            timeOfDeath = 0;
             return -1;
         }
     }
@@ -237,7 +249,7 @@ class Character {
 
     void respawn(CharacterSpawn@ spawnPoint) {
         spawnPoint.timeLastUsed = the_time;
-        timeOfDeath = 0;
+        dead = false;
         //Need to preserve certain information
         int old_fire_object_id = mo.GetIntVar("fire_object_id");
         //Restore health
@@ -252,6 +264,13 @@ class Character {
         mo.SetRotationFromFacing(spawnPoint.getRotation() * vec3(0,0,1));
         //Set velocity to zero. This doesn't really work though
         mo.velocity = vec3(0,0,0);
+        //Verify each starting weapons still exist
+        for (uint i = 0; i < 6; ++i)
+        {
+            if (!ObjectExists(startingWeaponIds[i])) {
+                startingWeaponIds[i] = -1;
+            }
+        }
         //Attach starting items if they aren't already equipped by someone else
         if (startingWeaponIds[0] != -1 && !isAnyoneCarryingWeapon(startingWeaponIds[0]))
         {

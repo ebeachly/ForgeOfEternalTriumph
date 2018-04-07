@@ -165,6 +165,9 @@ bool initialized = false;
 int currentDifficulty = 1;
 bool reached50 = false;
 bool ascended = false;
+
+int difficulty2ScoreThreshold = 1000;
+int difficulty3ScoreThreshold = 2000;
 void Update() {
     if (!initialized)
     {
@@ -223,14 +226,17 @@ void Update() {
         npcs[i].update();
     }
 
+
+    difficulty3ScoreThreshold = params.GetInt("Score to Unlock Difficulty 3");
+    difficulty2ScoreThreshold = params.GetInt("Score to Unlock Difficulty 2");
     //Figure out the difficulty level
-    if (highestCurrentScore >= params.GetInt("Score to Unlock Difficulty 3") )
+    if (highestCurrentScore >= difficulty3ScoreThreshold )
     {
         currentDifficulty = 3;
         maxNumLivingNpcs = params.GetInt("Difficulty 3 Number of NPCs");
         percentChanceOfRunner = params.GetInt("Difficulty 3 Runner % Chance");
         //Check for godhood
-        if (highestCurrentScore >= 10 * params.GetInt("Score to Unlock Difficulty 3")) {
+        if ((highestCurrentScore >= 10 * difficulty3ScoreThreshold) && highestCurrentScore >= 100) {
         	if (!ascended) {
         		DisplayText("Congratulations", 400);
 	        	mp.setMusicLayer(0);
@@ -244,7 +250,7 @@ void Update() {
         } else {
         	mp.setMusicLayer(4);
         }
-    } else if (highestCurrentScore >= params.GetInt("Score to Unlock Difficulty 2") ){
+    } else if (highestCurrentScore >= difficulty2ScoreThreshold ){
         currentDifficulty = 2;
         ascended = false;
         maxNumLivingNpcs = params.GetInt("Difficulty 2 Number of NPCs");
@@ -262,7 +268,7 @@ void Update() {
             bool inCombat = false;
             for (uint i = 0; i < players.length(); ++i)
             {
-                if (players[i].lastTimeAttacking != 0)
+                if (players[i].getLastTimeAttacking() != 0)
                 {
                     inCombat = true;
                     break;

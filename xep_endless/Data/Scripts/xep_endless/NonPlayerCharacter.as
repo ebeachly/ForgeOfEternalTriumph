@@ -7,7 +7,7 @@ class NonPlayerCharacter : Character {
     float lastPositionTime = 0;
     void update() {
         Character::update();
-        if (timeOfDeath == 0)
+        if (!dead)
         {
             //Has this character moved 3 meters from their previous position?
             if (distance_squared(getPosition(), lastPosition) >= 9) {
@@ -108,5 +108,9 @@ class NonPlayerCharacter : Character {
         } else {
             return true;
         }
+    }
+
+    int getScoreValue() {
+        return getDifficulty();
     }
 }
