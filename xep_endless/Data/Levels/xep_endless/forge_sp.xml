@@ -1,0 +1,2191 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<Name>forge_sp</Name>
+<Description></Description>
+<Shader>post</Shader>
+<LoadingScreen>
+    <Image></Image>
+</LoadingScreen>
+<OutOfDate NavMesh="true" NavMeshParamHash="-1893529184" />
+<AmbientSounds />
+<Script></Script>
+<LevelScriptParameters>
+    <parameter name="Achievements" type="string" val="flawless, no_injuries, no_kills" />
+    <parameter name="Custom Shader" type="string" val="#VOLCANO" />
+    <parameter name="GPU Particle Field" type="string" val="#ASH" />
+    <parameter name="HDR Black point" type="string" val="0.005" />
+    <parameter name="HDR Bloom multiplier" type="string" val="1" />
+    <parameter name="HDR White point" type="string" val="0.971" />
+    <parameter name="Level Boundaries" type="string" val="1" />
+    <parameter name="Objectives" type="string" val="destroy_all" />
+    <parameter name="Saturation" type="float" val="1" />
+    <parameter name="Sky Brightness" type="string" val="1" />
+    <parameter name="Sky Rotation" type="string" val="-62" />
+    <parameter name="Sky Tint" type="string" val="255, 255, 255" />
+</LevelScriptParameters>
+<NavMeshParameters cell_size="0.3" cell_height="0.2" agent_height="1.7" agent_radius="0.27" agent_max_climb="1.5" agent_max_slope="60" />
+<Sky>
+    <DomeTexture>Data/Textures/skies/CloudySunset.tga</DomeTexture>
+    <SunAngularRad>0.153056</SunAngularRad>
+    <SunColorAngle>353.589</SunColorAngle>
+    <RayToSun r0="0.843168" r1="0.508385" r2="0.174962" />
+</Sky>
+<ActorObjects>
+    <EnvObject t0="-562.354" t1="-34.4757" t2="-354.238" s0="59.5683" s1="45.4189" s2="41.6219" q0="0" q1="0.101204" q2="0" q3="0.994866" euler_x="0" euler_y="0.202755" euler_z="0" id="0" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Prototypes/MagmaArena/MagmaFloor.xml">
+        <parameters />
+    </EnvObject>
+    <CameraObject t0="126.097" t1="43.4337" t2="-120.918" s0="1" s1="1" s2="1" q0="-0.0459983" q1="0.945363" q2="-0.284178" q3="-0.153021" euler_x="-2.55758" euler_y="-0.320946" euler_z="3.14159" id="1">
+        <parameters />
+    </CameraObject>
+    <ActorObject t0="137.581" t1="2.83031" t2="-32.2912" s0="1" s1="1" s2="1" q0="0" q1="-0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="-1.0472" euler_z="3.14159" id="2" type_file="Data/Objects/IGF_Characters/pale_turner_actor.xml" is_player="1">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="7" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="_ Endless Difficulty" type="int" val="1" />
+        </parameters>
+        <Connections>
+            <Connection id="2" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.392157" green="0.301832" blue="0.172241" />
+            <Color label="Ropes" channel="1" red="0.160784" green="0.127047" blue="0.104667" />
+            <Color label="Pants" channel="2" red="0.149147" green="0.0800923" blue="0.243137" />
+            <Color label="Spots" channel="3" red="1" green="1" blue="1" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="181.148" t1="-16.1232" t2="-236.287" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="3" type_file="Data/Objects/IGF_Characters/pale_turner_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.1057" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="2" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.668395" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="3" />
+        </parameters>
+        <Connections>
+            <Connection id="3" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="305" type="0" mirrored="0" attachment="" />
+            <ItemConnection id="307" type="0" mirrored="1" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.14902" green="0.149018" blue="0.149018" />
+            <Color label="Ropes" channel="1" red="0.458824" green="0.374674" blue="0.31308" />
+            <Color label="Pants" channel="2" red="0.639216" green="0.0325875" blue="0.0325875" />
+            <Color label="Spots" channel="3" red="0" green="0" blue="0" />
+        </Palette>
+    </ActorObject>
+    <EnvObject t0="107.988" t1="-20.287" t2="-55.8909" s0="0.049605" s1="0.049605" s2="0.049605" q0="0.017438" q1="-0.466869" q2="0.0122692" q3="0.884069" euler_x="0.0343751" euler_y="-0.971826" euler_z="0.00959787" id="6" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="111.208" t1="-21.6803" t2="-56.8856" s0="0.049605" s1="0.0496049" s2="0.049605" q0="0.0139252" q1="-0.528936" q2="-0.11105" q3="0.84125" euler_x="0.309878" euler_y="-1.09047" euler_z="-0.45141" id="7" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="93.9977" t1="-4.2605" t2="-43.4459" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="8" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="101.684" t1="0.300073" t2="-26.7773" s0="0.332298" s1="0.296093" s2="0.252969" q0="-0.664148" q1="-0.0648604" q2="0.0738584" q3="-0.74111" euler_x="1.45904" euler_y="0.195486" euler_z="-0.0237756" id="9" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="117.912" t1="-22.7664" t2="-64.223" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="10" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="100.859" t1="3.8352" t2="-49.2712" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="11" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="68" offmesh_connection_id="1012" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="87.9857" t1="-26.0308" t2="-46.9099" s0="0.786188" s1="0.786187" s2="0.786188" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="12" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="117.938" t1="-6.88253" t2="-64.2331" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_hourglass.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="117.99" t1="2.22091" t2="-61.7928" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="18" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="19" offmesh_connection_id="1000" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="117.957" t1="5.08964" t2="-53.0004" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="19" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="18" offmesh_connection_id="1000" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="87.9817" t1="-18.5053" t2="-53.8776" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="20" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="83.9612" t1="-17.3924" t2="-59.8479" s0="0.28616" s1="0.293572" s2="0.31209" q0="0.280467" q1="0.813243" q2="0.15566" q3="-0.485535" euler_x="-3.10167" euler_y="-1.06965" euler_z="2.45374" id="21" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="126.823" t1="-22.8845" t2="-3.03053" s0="0.786187" s1="0.786187" s2="0.786187" q0="-0.05317" q1="0.945324" q2="-0.198433" q3="-0.253299" euler_x="-2.72778" euler_y="-0.5236" euler_z="3.14159" id="22" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="106.021" t1="-0.613938" t2="-50.4199" s0="0.786188" s1="0.786187" s2="0.786188" q0="0" q1="-0.5" q2="0" q3="0.866025" euler_x="0" euler_y="-1.0472" euler_z="0" id="23" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshRegionObject t0="105.423" t1="4.71489" t2="-40.6363" s0="81.9138" s1="51.8899" s2="85.3835" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="24">
+        <parameters />
+    </NavmeshRegionObject>
+    <NavmeshConnectionObject t0="116.763" t1="5.05174" t2="-48.4507" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="25" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="26" offmesh_connection_id="1001" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="113.146" t1="3.20257" t2="-42.2921" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="26" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="25" offmesh_connection_id="1001" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="108.531" t1="7.118" t2="-50.2839" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="27" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="28" offmesh_connection_id="1002" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="115.36" t1="5.09357" t2="-50.5152" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="28" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="27" offmesh_connection_id="1002" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="101.207" t1="-12.5017" t2="-24.0649" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="29" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="30" offmesh_connection_id="1003" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="102.728" t1="-11.7627" t2="-18.5299" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="30" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="29" offmesh_connection_id="1003" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="93.9718" t1="-0.602212" t2="-43.4775" s0="0.786187" s1="0.687774" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="31" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.9886" t1="-6.78251" t2="-53.8991" s0="0.786188" s1="0.786187" s2="0.786188" q0="0.866025" q1="0" q2="-0.5" q3="0" euler_x="3.14159" euler_y="1.0472" euler_z="0" id="32" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="124.476" t1="-17.6005" t2="-7.03387" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="33" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="41" offmesh_connection_id="1007" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="117.961" t1="-26.8356" t2="-36.4618" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="34" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_hourglass.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="89.9104" t1="-5.07525" t2="-54.9974" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="35" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="97" offmesh_connection_id="1015" poly_area="7" />
+            <NavMeshConnection other_object_id="167" offmesh_connection_id="1022" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="88.0221" t1="-2.54153" t2="-49.4231" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="36" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="37" offmesh_connection_id="1004" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="87.8891" t1="-5.04052" t2="-51.7321" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="37" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="36" offmesh_connection_id="1004" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="87.7717" t1="2.77783" t2="-42.3608" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="38" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="39" offmesh_connection_id="1005" poly_area="7" />
+            <NavMeshConnection other_object_id="40" offmesh_connection_id="1006" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="87.9471" t1="-0.157337" t2="-44.5792" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="39" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="38" offmesh_connection_id="1005" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="92.379" t1="4.98704" t2="-48.5997" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="40" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="38" offmesh_connection_id="1006" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="122.045" t1="-19.5983" t2="-11.3114" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="41" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="33" offmesh_connection_id="1007" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="103.983" t1="8.52637" t2="-49.2205" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="42" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="43" offmesh_connection_id="1008" poly_area="9" />
+            <NavMeshConnection other_object_id="224" offmesh_connection_id="1044" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="95.2341" t1="11.331" t2="-46.1075" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="43" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="42" offmesh_connection_id="1008" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="104.854" t1="-4.0839" t2="-57.393" s0="0.786187" s1="0.786187" s2="0.786187" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="44" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="100.88" t1="-18.7365" t2="-21.4526" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="45" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="47" offmesh_connection_id="1009" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="104.016" t1="-15.4645" t2="-45.9008" s0="0.22614" s1="0.22614" s2="0.226141" q0="0.28626" q1="0.547321" q2="0.160435" q3="0.769906" euler_x="1.20375" euler_y="0.849453" euler_z="1.01328" id="46" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="107.203" t1="-19.878" t2="-22.5184" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="47" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="45" offmesh_connection_id="1009" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="97.9378" t1="-15.4248" t2="-18.1819" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="48" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="59" offmesh_connection_id="1010" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="118.038" t1="-8.39404" t2="-50.4455" s0="0.786188" s1="0.786187" s2="0.786187" q0="0" q1="-0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="-1.0472" euler_z="3.14159" id="49" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="274.084" t1="-5.12088" t2="-69.5797" s0="4.68965" s1="4.68965" s2="4.68965" q0="-0.0811707" q1="-0.713764" q2="0.0262189" q3="-0.695173" euler_x="1.9731" euler_y="1.48874" euler_z="1.82096" id="50" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="268.294" t1="-2.97452" t2="-16.8893" s0="4.68965" s1="4.68965" s2="4.68965" q0="0.029147" q1="0.750284" q2="0.321576" q3="-0.576899" euler_x="1.84763" euler_y="-1.08525" euler_z="-2.36434" id="51" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="224.802" t1="-6.70138" t2="102.803" s0="4.23693" s1="4.68965" s2="5.24988" q0="0.135834" q1="0.9043" q2="0.292441" q3="-0.279765" euler_x="2.54884" euler_y="-0.62541" euler_z="3.04023" id="52" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="304.04" t1="-14.0274" t2="125.112" s0="4.23693" s1="4.68965" s2="5.24988" q0="-0.144854" q1="0.887447" q2="0.429563" q3="0.0832495" euler_x="2.267" euler_y="0.275686" euler_z="-2.94752" id="53" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="87.9771" t1="-7.15151" t2="-46.9303" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="54" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="100.006" t1="-6.80719" t2="-53.9168" s0="0.786188" s1="0.786187" s2="0.786187" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="55" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="100.04" t1="-0.621506" t2="-39.9965" s0="0.786187" s1="0.712687" s2="0.786187" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="56" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="93.9474" t1="-29.3991" t2="-43.5353" s0="0.786188" s1="0.786187" s2="0.786188" q0="0" q1="0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="57" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="88.0015" t1="-10.7154" t2="-39.9549" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="58" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="93.8761" t1="-15.6182" t2="-27.3551" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="59" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="48" offmesh_connection_id="1010" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="98.2458" t1="-0.104997" t2="-32.2287" s0="0.350656" s1="0.340199" s2="0.252969" q0="-0.546522" q1="0.382901" q2="-0.426146" q3="-0.610817" euler_x="1.26061" euler_y="-1.20422" euler_z="0.288771" id="60" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="107.065" t1="3.20018" t2="-31.6352" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="61" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="62" offmesh_connection_id="1011" poly_area="8" />
+            <NavMeshConnection other_object_id="78" offmesh_connection_id="1014" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="110.889" t1="3.16968" t2="-37.7623" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="62" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="61" offmesh_connection_id="1011" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="95.3564" t1="-19.2751" t2="-48.6347" s0="0.25581" s1="0.262436" s2="0.27899" q0="-0.294041" q1="0.624366" q2="-0.626474" q3="-0.362276" euler_x="-1.4877" euler_y="-0.962817" euler_z="2.98916" id="63" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="97.5677" t1="-20.3537" t2="-55.44" s0="0.0693185" s1="0.0693185" s2="0.0693185" q0="0" q1="-0.698749" q2="0" q3="0.715367" euler_x="0" euler_y="-1.5473" euler_z="0" id="64" color_r="0.403922" color_g="0.282004" color_b="0.240769" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="84.6735" t1="-12.8301" t2="-46.4681" s0="0.240498" s1="0.240498" s2="0.240498" q0="0.0876286" q1="-0.842571" q2="0.109471" q3="-0.520011" euler_x="-2.57706" euler_y="1.02963" euler_z="-2.60912" id="65" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="94.5677" t1="0.450394" t2="-49.4165" s0="0.786188" s1="0.786187" s2="0.786187" q0="-0.5" q1="0" q2="0.866025" q3="0" euler_x="0" euler_y="1.0472" euler_z="3.14159" id="66" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.4751" t1="-17.2141" t2="-54.8985" s0="0.786188" s1="0.786187" s2="0.786187" q0="0.866025" q1="0" q2="0.5" q3="0" euler_x="3.14159" euler_y="-1.0472" euler_z="0" id="67" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="101.119" t1="0.458765" t2="-52.391" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="68" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="11" offmesh_connection_id="1012" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="106.907" t1="0.0865288" t2="-59.0745" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="69" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="71" offmesh_connection_id="1013" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="102.536" t1="-11.9587" t2="-43.12" s0="0.226141" s1="0.226141" s2="0.22614" q0="0.369423" q1="0.679607" q2="0.600987" q3="0.201185" euler_x="1.77175" euler_y="-0.171422" euler_z="2.28592" id="70" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="115.852" t1="1.8691" t2="-62.9588" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="71" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="69" offmesh_connection_id="1013" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="99.4517" t1="5.28618" t2="-43.4186" s0="0.0496049" s1="0.0496049" s2="0.0496049" q0="-0.0174292" q1="0.989703" q2="0.0122816" q3="0.141536" euler_x="3.1214" euler_y="0.284404" euler_z="-3.10927" id="72" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="102.52" t1="4.35715" t2="-42.867" s0="0.22614" s1="0.22614" s2="0.22614" q0="0.406306" q1="0.906616" q2="-0.033131" q3="-0.108925" euler_x="-2.99022" euler_y="-0.171422" euler_z="2.28592" id="73" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="102.493" t1="-3.79303" t2="-42.7981" s0="0.22614" s1="0.22614" s2="0.226141" q0="0.401024" q1="-0.252099" q2="0.785293" q3="-0.398674" euler_x="-0.914474" euler_y="-0.4432" euler_z="-1.98126" id="74" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="103.403" t1="-8.48763" t2="-42.7713" s0="0.226141" s1="0.226141" s2="0.226141" q0="0.306222" q1="-0.293604" q2="0.800569" q3="-0.423217" euler_x="-0.850481" euler_y="-0.244207" euler_z="-2.05796" id="75" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="106.051" t1="-8.79316" t2="-40.3164" s0="0.319513" s1="0.319513" s2="0.319513" q0="0.850457" q1="0.458079" q2="0.256964" q3="0.0292703" euler_x="2.82352" euler_y="-0.422736" euler_z="1.05694" id="76" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="104.478" t1="-1.48446" t2="-40.2659" s0="0.319513" s1="0.319513" s2="0.319513" q0="0.199756" q1="0.932037" q2="-0.129747" q3="0.273074" euler_x="-2.98054" euler_y="0.595431" euler_z="2.76885" id="77" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="104.607" t1="1.82799" t2="-35.3955" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="78" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="61" offmesh_connection_id="1014" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="82.7814" t1="-15.1943" t2="-40.4847" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="79" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="178" offmesh_connection_id="1029" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="105.157" t1="-18.9322" t2="-43.8056" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="80" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="202" offmesh_connection_id="1037" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <PlaceholderObject t0="96.7594" t1="-6.5149" t2="-57.3002" s0="1" s1="1" s2="1" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="82" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="82" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="93.537" t1="-15.3245" t2="-50.4844" s0="1" s1="1" s2="1" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="83" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="83" />
+        </Connections>
+    </PlaceholderObject>
+    <EnvObject t0="118.027" t1="-22.9191" t2="-57.3823" s0="0.786187" s1="0.786187" s2="0.786187" q0="1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="84" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="276.291" t1="-3.36936" t2="-64.0543" s0="4.68965" s1="4.68965" s2="4.68965" q0="0.274024" q1="0.611111" q2="-0.145183" q3="-0.72827" euler_x="-1.39417" euler_y="-0.945074" euler_z="1.20237" id="85" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="92.8852" t1="-13.9973" t2="-43.4627" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="86" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="103.244" t1="-20.8765" t2="-52.3658" s0="0.22614" s1="0.22614" s2="0.22614" q0="0.155622" q1="-0.618354" q2="0.697215" q3="0.327584" euler_x="-1.32982" euler_y="-0.67146" euler_z="2.7972" id="87" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.171" t1="-19.5518" t2="-45.1748" s0="0.22614" s1="0.22614" s2="0.22614" q0="4.12464e-005" q1="0.519318" q2="0.0629493" q3="0.852259" euler_x="0.141151" euler_y="1.08688" euler_z="0.232817" id="88" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="78.8141" t1="-19.8846" t2="-61.0472" s0="0.28616" s1="0.293572" s2="0.31209" q0="-0.651403" q1="0.399158" q2="0.221394" q3="0.606079" euler_x="-1.83729" euler_y="0.882416" euler_z="-0.407306" id="89" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="211.151" t1="-10.6302" t2="-168.408" s0="4.68965" s1="4.68965" s2="4.68965" q0="-0.17916" q1="-0.0321367" q2="0.0799863" q3="-0.980036" euler_x="0.354891" euler_y="0.0917797" euler_z="-0.1464" id="90" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="88.0407" t1="-17.7709" t2="-59.0101" s0="0.395302" s1="0.395302" s2="0.395302" q0="0.0916385" q1="0.862071" q2="0.127595" q3="-0.481824" euler_x="2.8856" euler_y="-1.02385" euler_z="3.07416" id="91" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="101.33" t1="-22.1566" t2="-56.1549" s0="0.226247" s1="0.226247" s2="0.226247" q0="-0.0380978" q1="-0.63523" q2="0.77091" q3="0.0269927" euler_x="-1.37951" euler_y="0.0244492" euler_z="3.05142" id="92" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.727" t1="-19.7439" t2="-55.087" s0="0.141242" s1="0.141242" s2="0.141242" q0="0.277299" q1="-0.960412" q2="-0.0266232" q3="0.00204728" euler_x="3.08929" euler_y="0.0108329" euler_z="-2.57971" id="93" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="93.9814" t1="-16.1148" t2="-57.365" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="94" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="83.8082" t1="-9.9545" t2="-50.5606" s0="0.216364" s1="0.150419" s2="0.216364" q0="0.079917" q1="0.586048" q2="-0.0701782" q3="-0.803266" euler_x="-0.611663" euler_y="-1.1952" euler_z="0.597643" id="95" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.9483" t1="-10.4062" t2="-46.9485" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="96" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="92.1136" t1="-6.98446" t2="-56.4813" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="97" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="35" offmesh_connection_id="1015" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="100.011" t1="-23.1942" t2="-60.8229" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="98" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.4688" t1="-10.1963" t2="-52.8975" s0="0.786188" s1="0.786187" s2="0.786188" q0="0.866025" q1="0" q2="-0.5" q3="0" euler_x="3.14159" euler_y="1.0472" euler_z="0" id="99" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="104.71" t1="-20.0461" t2="-54.2258" s0="0.141242" s1="0.141242" s2="0.141242" q0="0.277299" q1="-0.960412" q2="-0.0266232" q3="0.00204728" euler_x="3.08929" euler_y="0.0108329" euler_z="-2.57971" id="100" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.896" t1="-22.5596" t2="-56.6634" s0="0.22614" s1="0.226141" s2="0.226141" q0="-0.209366" q1="-0.61131" q2="0.739051" q3="-0.190445" euler_x="-1.37321" euler_y="0.57318" euler_z="-3.11121" id="101" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="104.976" t1="-24.9415" t2="-64.2234" s0="0.786188" s1="0.694639" s2="0.764832" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="102" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="100.033" t1="-4.14957" t2="-46.9661" s0="0.786188" s1="0.786187" s2="0.786188" q0="0" q1="-0.5" q2="0" q3="0.866025" euler_x="0" euler_y="-1.0472" euler_z="0" id="103" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.99" t1="-22.3513" t2="-50.4141" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="104" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="101.325" t1="-20.9922" t2="-43.1328" s0="0.049605" s1="0.0496049" s2="0.0496049" q0="0.0495465" q1="-0.2261" q2="-0.135081" q3="0.963419" euler_x="0.173575" euler_y="-0.435951" euler_z="-0.317142" id="105" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="85.7681" t1="-12.0898" t2="-63.5159" s0="0.786187" s1="0.786187" s2="0.786187" q0="0.5" q1="-0.75" q2="0" q3="0.433013" euler_x="2.5357" euler_y="-0.706952" euler_z="-1.73594" id="106" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="104.232" t1="-20.7095" t2="-42.9712" s0="0.049605" s1="0.049605" s2="0.049605" q0="0.00328034" q1="0.311963" q2="0.0210679" q3="0.949854" euler_x="0.0240555" euler_y="0.634159" euler_z="0.0522471" id="107" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="80.469" t1="-13.1122" t2="-49.548" s0="0.216364" s1="0.216364" s2="0.216364" q0="0.264723" q1="0.26769" q2="-0.0987451" q3="-0.921144" euler_x="-0.646323" euler_y="-0.456581" euler_z="0.368891" id="108" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="80.8762" t1="-18.9271" t2="-49.0443" s0="0.316431" s1="0.316431" s2="0.316431" q0="-0.127142" q1="0.885149" q2="0.0366932" q3="0.446094" euler_x="-3.06088" euler_y="0.925713" euler_z="-2.81597" id="109" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="82.2018" t1="-15.4196" t2="-53.2838" s0="0.395302" s1="0.395302" s2="0.395302" q0="0.0916385" q1="0.862071" q2="0.127595" q3="-0.481824" euler_x="2.8856" euler_y="-1.02385" euler_z="3.07416" id="110" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="110.25" t1="3.2317" t2="-41.521" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="111" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="122" offmesh_connection_id="1016" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="111.963" t1="-10.2764" t2="-39.9729" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="112" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="82.1192" t1="-18.2282" t2="-41.9798" s0="0.316431" s1="0.316431" s2="0.316431" q0="0.0963203" q1="0.318513" q2="0.0320064" q3="-0.942469" euler_x="-0.20413" euler_y="-0.651705" euler_z="0.00129357" id="113" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="83.506" t1="-14.1504" t2="-55.7532" s0="0.216364" s1="0.216364" s2="0.216364" q0="-0.12285" q1="0.815293" q2="0.0265351" q3="-0.565244" euler_x="2.67272" euler_y="-1.1559" euler_z="-2.53342" id="114" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="82.1734" t1="-12.443" t2="-52.9442" s0="0.216364" s1="0.216364" s2="0.216364" q0="-0.474612" q1="0.767131" q2="0.2631" q3="0.342101" euler_x="3.01646" euler_y="0.886104" euler_z="-2.09294" id="115" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="81.7811" t1="-17.4119" t2="-46.8022" s0="0.316431" s1="0.316431" s2="0.316431" q0="-0.0880561" q1="0.916798" q2="0.0543743" q3="0.385708" euler_x="3.09601" euler_y="0.799215" euler_z="-2.96934" id="116" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="80.7473" t1="-17.1406" t2="-45.4011" s0="0.316431" s1="0.316431" s2="0.316431" q0="0.0269588" q1="-0.107786" q2="0.0999183" q3="0.988773" euler_x="0.0325655" euler_y="-0.220317" euler_z="0.19782" id="117" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="82.0625" t1="-17.8525" t2="-56.7463" s0="0.316431" s1="0.316431" s2="0.316431" q0="0.0261769" q1="0.964428" q2="0.131249" q3="-0.227964" euler_x="2.86861" euler_y="-0.462941" euler_z="-3.13114" id="118" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="78.7732" t1="-17.6165" t2="-53.7163" s0="0.316431" s1="0.316431" s2="0.316431" q0="-0.0420108" q1="0.56941" q2="-0.137366" q3="-0.809406" euler_x="-0.248826" euler_y="-1.20352" euler_z="0.507562" id="119" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="71.1063" t1="-18.9284" t2="-47.8067" s0="0.316431" s1="0.316431" s2="0.316431" q0="0.229399" q1="0.582695" q2="0.0596982" q3="-0.777354" euler_x="-0.926454" euler_y="-1.20352" euler_z="0.50756" id="120" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="71.3138" t1="-20.9484" t2="-52.2588" s0="0.0855026" s1="0.0855026" s2="0.0855026" q0="-0.0187525" q1="-0.933157" q2="-0.00721246" q3="0.358908" euler_x="-3.14159" euler_y="-0.734351" euler_z="3.10141" id="121" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="102.494" t1="4.20077" t2="-46.1614" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="122" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="111" offmesh_connection_id="1016" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="95.6335" t1="-20.1662" t2="-40.3556" s0="0.224032" s1="0.226141" s2="0.222742" q0="0.222654" q1="0.218432" q2="0.159535" q3="0.936622" euler_x="0.543632" euler_y="0.344934" euler_z="0.434448" id="123" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.1757" t1="-21.3183" t2="-40.353" s0="0.049605" s1="0.049605" s2="0.049605" q0="-0.0181986" q1="0.491675" q2="0.0170925" q3="0.87042" euler_x="-0.028824" euler_y="1.02855" euler_z="0.0229831" id="124" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="75.8469" t1="-20.9055" t2="-61.125" s0="0.0855026" s1="0.0855026" s2="0.0855026" q0="-0.0131617" q1="-0.654952" q2="-0.0151803" q3="0.755404" euler_x="0" euler_y="-1.42859" euler_z="-0.0401857" id="125" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="86.7488" t1="-16.9991" t2="-61.7407" s0="0.28616" s1="0.293572" s2="0.31209" q0="0.023796" q1="0.421503" q2="0.174889" q3="-0.889489" euler_x="0.161887" euler_y="-0.860499" euler_z="-0.462707" id="126" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="85.9235" t1="-20.6954" t2="-66.8786" s0="0.28616" s1="0.293572" s2="0.31209" q0="0.171069" q1="0.982616" q2="0.0434468" q3="0.0576269" euler_x="3.03579" euler_y="0.0985448" euler_z="2.79164" id="127" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.6567" t1="-20.682" t2="-58.2585" s0="0.049605" s1="0.049605" s2="0.049605" q0="-0.0131752" q1="-0.975311" q2="-0.0329692" q3="0.217957" euler_x="3.07681" euler_y="-0.44009" euler_z="3.12907" id="128" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="94.6943" t1="-21.3543" t2="-61.7036" s0="0.049605" s1="0.049605" s2="0.049605" q0="-0.0131752" q1="-0.975311" q2="-0.0329692" q3="0.217957" euler_x="3.07681" euler_y="-0.44009" euler_z="3.12907" id="129" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.2683" t1="-21.0905" t2="-64.6527" s0="0.049605" s1="0.0496049" s2="0.0496049" q0="0.0495465" q1="-0.2261" q2="-0.135081" q3="0.963419" euler_x="0.173575" euler_y="-0.435951" euler_z="-0.317142" id="130" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="80.8648" t1="-20.0905" t2="-63.2813" s0="0.28616" s1="0.293572" s2="0.31209" q0="-0.71091" q1="0.252103" q2="0.146173" q3="0.640066" euler_x="-1.73421" euler_y="0.559257" euler_z="-0.203519" id="131" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="109.65" t1="-21.1531" t2="-52.123" s0="0.049605" s1="0.049605" s2="0.049605" q0="-0.010914" q1="0.846193" q2="0.0183167" q3="0.532449" euler_x="3.0968" euler_y="1.12324" euler_z="3.1392" id="132" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="107.771" t1="-20.7443" t2="-57.6369" s0="0.049605" s1="0.049605" s2="0.049605" q0="0.017438" q1="-0.466869" q2="0.0122692" q3="0.884069" euler_x="0.0343751" euler_y="-0.971826" euler_z="0.00959787" id="133" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="95.3428" t1="-20.1097" t2="-39.1075" s0="0.049605" s1="0.049605" s2="0.049605" q0="0.0928804" q1="0.100473" q2="0.0373317" q3="0.989891" euler_x="0.19627" euler_y="0.193179" euler_z="0.0944676" id="134" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="102.186" t1="-7.27752" t2="-36.8067" s0="0.319512" s1="0.264721" s2="0.252969" q0="0.884074" q1="0.277737" q2="0.17571" q3="0.332264" euler_x="2.37926" euler_y="-0.126454" euler_z="0.659519" id="135" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="74.8276" t1="-3.3586" t2="-60.8828" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="136" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="93.6607" t1="2.61736" t2="-41.646" s0="0.319512" s1="0.264721" s2="0.252969" q0="0.443356" q1="-0.529886" q2="0.527259" q3="0.494624" euler_x="-1.21025" euler_y="-1.44199" euler_z="2.72704" id="137" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="90.9294" t1="-0.0891609" t2="-45.0808" s0="0.053038" s1="0.053038" s2="0.053038" q0="0.352265" q1="-0.429568" q2="-0.231724" q3="-0.798552" euler_x="-0.759623" euler_y="1.0147" euler_z="0.128114" id="138" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="92.5023" t1="-3.65016" t2="-45.7159" s0="0.0559554" s1="0.0589411" s2="0.0530379" q0="0.812623" q1="-0.14156" q2="-0.467104" q3="-0.318465" euler_x="-2.32331" euler_y="1.0147" euler_z="0.128113" id="139" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="97.7581" t1="0.53001" t2="-50.7384" s0="0.0281233" s1="0.0281233" s2="0.0281233" q0="-0.194159" q1="-0.550834" q2="0.163178" q3="0.795145" euler_x="-0.994106" euler_y="-0.948635" euler_z="0.948079" id="140" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="108.089" t1="-7.74263" t2="-41.0579" s0="0.211565" s1="0.184332" s2="0.181766" q0="0.63167" q1="0.0883722" q2="0.258274" q3="-0.725588" euler_x="-1.36001" euler_y="-0.471846" euler_z="-0.299915" id="141" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="91.3236" t1="-15.6297" t2="-52.3321" s0="0.0526013" s1="0.053038" s2="0.047556" q0="-2.12193e-005" q1="-0.37441" q2="-0.0418335" q3="-0.92632" euler_x="0.0435572" euler_y="0.766537" euler_z="0.107826" id="142" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="76.0191" t1="-14.7007" t2="-60.9285" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="143" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="75.6785" t1="-7.20764" t2="-63.1596" s0="0.786188" s1="0.786187" s2="0.786187" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="144" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chunk.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="76.0876" t1="-5.36346" t2="-58.7229" s0="0.786188" s1="0.786187" s2="0.786187" q0="0" q1="-0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="-1.0472" euler_z="3.14159" id="145" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chunk.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="78.5155" t1="-22.1112" t2="-72.4713" s0="0.786187" s1="0.786187" s2="0.786187" q0="-0.34612" q1="0.274543" q2="0.204528" q3="0.873496" euler_x="-0.679367" euler_y="0.670282" euler_z="0.215092" id="146" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chunk.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="94.0141" t1="-18.5539" t2="-67.5966" s0="0.786188" s1="0.786187" s2="0.786188" q0="0" q1="0.433013" q2="0.5" q3="0.75" euler_x="0.605892" euler_y="0.706952" euler_z="1.40565" id="147" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="104.813" t1="-19.8652" t2="-57.4876" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="148" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="151" offmesh_connection_id="1017" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="174.07" t1="-18.5907" t2="-237.639" s0="7.41086" s1="0.335581" s2="5.66191" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="149" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Crete/CreteCube.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="100.129" t1="-17.7598" t2="-69.556" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="150" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="161" offmesh_connection_id="1021" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="105.507" t1="-18.9347" t2="-62.0953" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="151" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="148" offmesh_connection_id="1017" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="91.6491" t1="-6.96587" t2="-59.0763" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="152" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="153" offmesh_connection_id="1018" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="85.1048" t1="-8.02332" t2="-62.0493" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="153" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="152" offmesh_connection_id="1018" poly_area="8" />
+            <NavMeshConnection other_object_id="154" offmesh_connection_id="1019" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="78.6023" t1="-6.00777" t2="-60.8498" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="154" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="155" offmesh_connection_id="1020" poly_area="9" />
+            <NavMeshConnection other_object_id="153" offmesh_connection_id="1019" poly_area="8" />
+            <NavMeshConnection other_object_id="172" offmesh_connection_id="1025" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="85.7339" t1="-5.1323" t2="-54.9947" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="155" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="154" offmesh_connection_id="1020" poly_area="9" />
+            <NavMeshConnection other_object_id="172" offmesh_connection_id="1026" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="98.4071" t1="-2.70266" t2="-31.1344" s0="0.32128" s1="0.310266" s2="0.242915" q0="-0.538568" q1="0.158955" q2="-0.130636" q3="-0.817075" euler_x="1.15591" euler_y="-0.412029" euler_z="0.0461391" id="156" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="94.2318" t1="-19.1125" t2="-50.7266" s0="0.28616" s1="0.293572" s2="0.31209" q0="0.388737" q1="0.593146" q2="-0.525623" q3="0.469882" euler_x="-1.59355" euler_y="1.30958" euler_z="-3.01424" id="157" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="98.3984" t1="-20.4274" t2="-52.0139" s0="0.25581" s1="0.262436" s2="0.27899" q0="-0.0776287" q1="0.541276" q2="-0.69212" q3="-0.471138" euler_x="-1.03438" euler_y="-0.665545" euler_z="2.33452" id="158" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="2.08264" t1="-22.7176" t2="-236.737" s0="155.789" s1="0.747787" s2="218.03" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="159" type_file="Data/Objects/Hotspots/lava_kill.xml">
+        <parameters />
+        <Connections />
+    </Hotspot>
+    <EnvObject t0="127.921" t1="-38.9438" t2="4.32033" s0="276.226" s1="17.253" s2="197.335" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="160" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/primitives/edged_cube.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="103.68" t1="-18.989" t2="-65.3421" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="161" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="150" offmesh_connection_id="1021" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="100.002" t1="-7.87976" t2="-60.8343" s0="0.786188" s1="0.786187" s2="0.786187" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="162" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.026" t1="-20.8028" t2="-59.5006" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0897984" q1="-0.995408" q2="-0.011308" q3="0.031156" euler_x="3.11343" euler_y="-0.060031" euler_z="-2.96081" id="163" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="117.375" t1="-8.20143" t2="-37.4455" s0="0.786187" s1="0.786187" s2="0.786187" q0="0.866025" q1="0" q2="0.5" q3="0" euler_x="3.14159" euler_y="-1.0472" euler_z="0" id="164" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <Decal t0="108.966" t1="-15.6395" t2="-41.7082" s0="2.25" s1="2.25" s2="2.25" q0="-0.612372" q1="0.353553" q2="0.353553" q3="0.612372" euler_x="-1.57079" euler_y="1.04719" euler_z="0" id="165" type_file="Data/Objects/Decals/Scratches/scratches_03.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="125.083" t1="-16.2087" t2="-33.0421" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="166" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="97.7366" t1="-2.93785" t2="-59.7984" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="167" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="35" offmesh_connection_id="1022" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="99.9105" t1="0.509985" t2="-56.2115" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="168" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="170" offmesh_connection_id="1023" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="103.955" t1="0.513443" t2="-58.5337" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="169" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="170" offmesh_connection_id="1024" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="101.253" t1="-1.37124" t2="-59.5029" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="170" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="168" offmesh_connection_id="1023" poly_area="7" />
+            <NavMeshConnection other_object_id="169" offmesh_connection_id="1024" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="100.046" t1="0.300339" t2="-33.0738" s0="0.870156" s1="1.77911" s2="0.870156" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="171" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="77.1085" t1="-3.20908" t2="-58.5696" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="172" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="155" offmesh_connection_id="1026" poly_area="9" />
+            <NavMeshConnection other_object_id="154" offmesh_connection_id="1025" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="87.7563" t1="-16.7124" t2="-59.8884" s0="0.28616" s1="0.293572" s2="0.31209" q0="0.140206" q1="0.410071" q2="0.0748289" q3="-0.898105" euler_x="-0.296092" euler_y="-0.859562" euler_z="-0.0297538" id="173" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="90.2322" t1="-12.8009" t2="-60.292" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="174" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="175" offmesh_connection_id="1027" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="91.8424" t1="-12.1498" t2="-65.1907" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="175" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="174" offmesh_connection_id="1027" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="85.7777" t1="-4.96321" t2="-52.3998" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="176" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="177" offmesh_connection_id="1028" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="82.3347" t1="-6.1242" t2="-45.8693" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="177" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="176" offmesh_connection_id="1028" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="73.7447" t1="-14.6658" t2="-47.0643" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="178" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="179" offmesh_connection_id="1030" poly_area="8" />
+            <NavMeshConnection other_object_id="79" offmesh_connection_id="1029" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="79.2183" t1="-13.0054" t2="-47.3585" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="179" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="178" offmesh_connection_id="1030" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="233.742" t1="18.1587" t2="-144.212" s0="4.68965" s1="4.68965" s2="4.68965" q0="0.0151174" q1="0.593372" q2="0.0839498" q3="-0.800396" euler_x="0.250028" euler_y="-1.26103" euler_z="-0.391947" id="180" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="105.522" t1="-23.7767" t2="-35.6188" s0="0.786188" s1="0.784004" s2="0.776385" q0="0.866025" q1="0" q2="-0.5" q3="0" euler_x="3.14159" euler_y="1.0472" euler_z="0" id="181" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="120.459" t1="-13.7755" t2="-56.3332" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="182" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="183" offmesh_connection_id="1031" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="124.045" t1="-12.783" t2="-49.5528" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="183" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="182" offmesh_connection_id="1031" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <Decal t0="90.3345" t1="-13.9624" t2="-48.2959" s0="2.25" s1="2.25" s2="2.25" q0="-0.612372" q1="-0.353553" q2="-0.353553" q3="0.612372" euler_x="-1.57079" euler_y="-1.04719" euler_z="0" id="184" type_file="Data/Objects/Decals/Scratches/scratches_03.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <NavmeshConnectionObject t0="94.053" t1="11.2503" t2="-41.8287" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="186" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="327" offmesh_connection_id="1051" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="123.983" t1="-26.2504" t2="-33.0229" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="188" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="142.148" t1="-15.0959" t2="158.009" s0="4.23693" s1="4.68965" s2="5.24988" q0="-0.158615" q1="-0.109532" q2="0.134095" q3="-0.972041" euler_x="0.292724" euler_y="0.258342" euler_z="-0.235882" id="189" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="124.064" t1="-20.7727" t2="-47.0002" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="190" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="124.062" t1="-11.5282" t2="-44.2197" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="191" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="192" offmesh_connection_id="1032" poly_area="8" />
+            <NavMeshConnection other_object_id="221" offmesh_connection_id="1042" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="124.799" t1="-9.55339" t2="-35.8105" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="192" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="191" offmesh_connection_id="1032" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="130.031" t1="-18.6753" t2="-36.4912" s0="0.785917" s1="0.785916" s2="0.785916" q0="0" q1="-0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="-1.0472" euler_z="3.14159" id="193" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="129.969" t1="-16.6336" t2="-29.5585" s0="0.786187" s1="0.786187" s2="0.786187" q0="-0.5" q1="0" q2="-0.866026" q3="0" euler_x="0" euler_y="-1.0472" euler_z="-3.14159" id="194" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="128.299" t1="-7.36548" t2="-31.176" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="195" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="196" offmesh_connection_id="1033" poly_area="7" />
+            <NavMeshConnection other_object_id="197" offmesh_connection_id="1034" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="126.176" t1="-9.53038" t2="-33.2834" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="196" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="195" offmesh_connection_id="1033" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="128.65" t1="-5.09352" t2="-34.0809" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="197" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="195" offmesh_connection_id="1034" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="127.175" t1="-5.04621" t2="-36.7385" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="198" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="199" offmesh_connection_id="1035" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="119.713" t1="-3.53631" t2="-38.4088" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="199" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="198" offmesh_connection_id="1035" poly_area="8" />
+            <NavMeshConnection other_object_id="208" offmesh_connection_id="1039" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="107.665" t1="-17.1363" t2="-35.1749" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="200" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="201" offmesh_connection_id="1036" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="116.044" t1="-17.6373" t2="-35.4807" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="201" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="200" offmesh_connection_id="1036" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="103.446" t1="-17.1308" t2="-36.926" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="202" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="203" offmesh_connection_id="1038" poly_area="9" />
+            <NavMeshConnection other_object_id="80" offmesh_connection_id="1037" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="96.5105" t1="-15.9403" t2="-42.9929" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="203" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="202" offmesh_connection_id="1038" poly_area="9" />
+            <NavMeshConnection other_object_id="235" offmesh_connection_id="1047" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <Decal t0="115.063" t1="-1.85583" t2="-41.5694" s0="2.25" s1="2.25" s2="2.25" q0="-0.612372" q1="-0.353553" q2="-0.353553" q3="0.612372" euler_x="-1.57079" euler_y="-1.04719" euler_z="0" id="204" type_file="Data/Objects/Decals/Scratches/scratches_03.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </Decal>
+    <EnvObject t0="135.958" t1="-10.2348" t2="-33.0964" s0="0.786187" s1="0.733201" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="205" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="130.088" t1="-11.4284" t2="-50.5145" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="-0.5" q2="0" q3="0.866025" euler_x="0" euler_y="-1.0472" euler_z="0" id="206" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="97.9898" t1="-1.7531" t2="-32.0944" s0="0.384225" s1="0.469901" s2="0.254999" q0="-0.571808" q1="0.00780444" q2="0.153584" q3="-0.805844" euler_x="1.21254" euler_y="0.163794" euler_z="-0.262954" id="207" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="122.185" t1="-0.963441" t2="-46.4628" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="208" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="199" offmesh_connection_id="1039" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="127.208" t1="1.9884" t2="-50.2207" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="209" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="211" offmesh_connection_id="1041" poly_area="8" />
+            <NavMeshConnection other_object_id="210" offmesh_connection_id="1040" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="124.25" t1="-1.32275" t2="-48.2404" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="210" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="209" offmesh_connection_id="1040" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="120.959" t1="5.09639" t2="-50.3873" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="211" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="209" offmesh_connection_id="1041" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="88.5651" t1="-1.8562" t2="-25.0843" s0="0.786187" s1="0.786187" s2="0.786187" q0="-0.5" q1="0" q2="0.866025" q3="0" euler_x="0" euler_y="1.0472" euler_z="3.14159" id="212" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.9889" t1="-27.1627" t2="-19.1638" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="213" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="111.084" t1="-21.9096" t2="-12.9079" s0="0.786187" s1="0.786187" s2="0.786187" q0="0.25" q1="-0.75" q2="0.433012" q3="0.433012" euler_x="-2.0944" euler_y="-1.04719" euler_z="-3.14159" id="214" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="83.1579" t1="-10.792" t2="-43.4239" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="-1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="215" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="84.8951" t1="-10.3785" t2="-48.3404" s0="0.221654" s1="0.244954" s2="0.288846" q0="-0.420855" q1="0.309414" q2="-0.496967" q3="-0.692941" euler_x="0.545495" euler_y="-1.01053" euler_z="0.937309" id="216" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="81.9831" t1="-6.23395" t2="-41.0799" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="217" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="226" offmesh_connection_id="1045" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="88.514" t1="-11.1696" t2="-25.2261" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="-0.866025" q2="0" q3="-0.5" euler_x="-3.14159" euler_y="1.0472" euler_z="-3.14159" id="218" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="75.9874" t1="-17.2232" t2="-33.0556" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="219" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_hourglass.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="124.687" t1="-19.4802" t2="-38.9854" s0="0.786187" s1="0.786187" s2="0.786187" q0="0.5" q1="0" q2="-0.866025" q3="0" euler_x="0" euler_y="1.0472" euler_z="3.14159" id="220" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="124.814" t1="-14.827" t2="-40.1851" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="221" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="191" offmesh_connection_id="1042" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="119.702" t1="-17.6196" t2="-36.3825" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="222" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="223" offmesh_connection_id="1043" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="122.175" t1="-14.8857" t2="-37.9938" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="223" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="222" offmesh_connection_id="1043" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="101.505" t1="11.6838" t2="-42.704" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="224" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="42" offmesh_connection_id="1044" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="77.2976" t1="-7.97973" t2="-35.2782" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="226" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="217" offmesh_connection_id="1045" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="88.0064" t1="8.36306" t2="-26.1068" s0="0.786187" s1="0.859432" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="227" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="86.83" t1="-0.614476" t2="-26.1144" s0="0.786187" s1="0.786187" s2="0.786187" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="228" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="87.9932" t1="-18.8235" t2="-26.1295" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="229" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="88.5211" t1="-5.52346" t2="-25.1909" s0="0.786187" s1="0.786187" s2="0.786187" q0="-0.5" q1="0" q2="0.866025" q3="0" euler_x="0" euler_y="1.0472" euler_z="3.14159" id="230" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="104.579" t1="-7.58654" t2="-34.3275" s0="0.270831" s1="0.223523" s2="0.205572" q0="0.377471" q1="0.459324" q2="-0.63572" q3="0.492338" euler_x="-0.626945" euler_y="1.20049" euler_z="-2.26035" id="231" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="78.4561" t1="-8.01981" t2="-31.9561" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="232" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="233" offmesh_connection_id="1046" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="86.4153" t1="-10.1393" t2="-27.5924" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="233" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="232" offmesh_connection_id="1046" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="94.012" t1="-24.6455" t2="-29.5802" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="234" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="94.2842" t1="-15.3261" t2="-32.2657" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="235" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="203" offmesh_connection_id="1047" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="103.419" t1="-15.4616" t2="-18.0018" s0="0.786187" s1="0.786187" s2="0.786187" q0="0.433013" q1="-0.866025" q2="0.25" q3="0" euler_x="-2.68206" euler_y="-0.218235" euler_z="-2.26553" id="236" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="99.9899" t1="-21.5594" t2="-26.1151" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="1" q3="0" euler_x="0" euler_y="0" euler_z="3.14159" id="237" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="89.244" t1="-10.1476" t2="-28.3825" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="238" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="239" offmesh_connection_id="1048" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="97.7003" t1="-12.262" t2="-27.6791" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="239" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="240" offmesh_connection_id="1049" poly_area="7" />
+            <NavMeshConnection other_object_id="238" offmesh_connection_id="1048" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="94.9779" t1="-15.4074" t2="-29.1737" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="240" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="239" offmesh_connection_id="1049" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="99.3889" t1="-19.0548" t2="-18.1557" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="241" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_corner.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="121.663" t1="-22.1229" t2="-28.2171" s0="0.316431" s1="0.316431" s2="0.316431" q0="-0.567152" q1="0.303401" q2="-0.38442" q3="-0.662199" euler_x="1.24913" euler_y="-0.993375" euler_z="0.30703" id="242" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="115.878" t1="-22.0918" t2="-23.1788" s0="0.302765" s1="0.315225" s2="0.316431" q0="-0.303727" q1="0.627469" q2="-0.590079" q3="-0.407235" euler_x="-1.51395" euler_y="-1.05419" euler_z="2.93888" id="243" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="113.434" t1="-22.2667" t2="-20.7757" s0="0.302765" s1="0.315225" s2="0.316431" q0="-0.375505" q1="0.587336" q2="-0.538017" q3="-0.473889" euler_x="-1.4695" euler_y="-1.28959" euler_z="2.89098" id="244" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="118.326" t1="-22.3533" t2="-12.0293" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.626206" q1="0.23725" q2="-0.228495" q3="-0.70666" euler_x="1.43874" euler_y="-0.67063" euler_z="0.0329404" id="245" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="123.551" t1="-21.8361" t2="-22.179" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.57049" q1="-0.443953" q2="0.370444" q3="-0.583283" euler_x="1.70401" euler_y="1.2243" euler_z="0.220853" id="246" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="122.607" t1="-22.1655" t2="-16.3187" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.544371" q1="-0.459765" q2="0.350626" q3="-0.607732" euler_x="1.6163" euler_y="1.2243" euler_z="0.220847" id="247" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="127.729" t1="-22.0491" t2="-23.2629" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.385403" q1="-0.603023" q2="0.492847" q3="-0.494904" euler_x="-1.68464" euler_y="1.35481" euler_z="-3.03402" id="248" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="79.2125" t1="-11.6381" t2="129.612" s0="4.23693" s1="4.68965" s2="5.24988" q0="0.0556805" q1="0.597734" q2="0.107844" q3="-0.792454" euler_x="0.144654" euler_y="-1.28474" euler_z="-0.378833" id="249" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="112.116" t1="-4.26292" t2="-26.1115" s0="0.829616" s1="1.70184" s2="0.829616" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="250" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_tall.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="102.477" t1="-5.05422" t2="-43.8323" s0="0.21797" s1="0.21797" s2="0.21797" q0="0.322273" q1="0.399827" q2="-0.340595" q3="-0.787575" euler_x="-1.02608" euler_y="-0.422737" euler_z="1.05694" id="251" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="125.942" t1="-22.6449" t2="-14.454" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.569224" q1="-0.428612" q2="0.3161" q3="-0.626384" euler_x="1.60572" euler_y="1.11252" euler_z="0.209373" id="252" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="126.767" t1="-22.6219" t2="-16.8124" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.676702" q1="-0.223156" q2="0.0982491" q3="-0.694711" euler_x="1.58803" euler_y="0.458974" euler_z="0.185682" id="253" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <ActorObject t0="183.149" t1="-16.2184" t2="-241.638" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="254" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.1658" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.70466" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="1" />
+        </parameters>
+        <Connections>
+            <Connection id="254" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="0.0862745" green="0.0862736" blue="0.0862736" />
+        </Palette>
+    </ActorObject>
+    <ItemObject t0="99.8313" t1="30.8081" t2="-33.5337" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="255" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="106.065" t1="-4.05681" t2="-29.5924" s0="0.790941" s1="0.790941" s2="0.790941" q0="-0.866025" q1="0" q2="0.5" q3="0" euler_x="3.14159" euler_y="1.0472" euler_z="0" id="256" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="119.498" t1="-20.4134" t2="-31.6977" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0663244" q1="-0.615214" q2="0.0615849" q3="0.783147" euler_x="0.119432" euler_y="-1.33264" euler_z="0.0630017" id="257" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="118.884" t1="-20.3412" t2="-28.2462" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="-0.027878" q1="0.450731" q2="0.0861071" q3="0.888059" euler_x="0.0474332" euler_y="0.93627" euler_z="0.217304" id="258" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="116.168" t1="-20.8433" t2="-26.7903" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0504216" q1="-0.419076" q2="0.0751618" q3="0.903428" euler_x="0.0436402" euler_y="-0.870715" euler_z="0.145709" id="259" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="109.876" t1="-20.7684" t2="-23.2309" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0504216" q1="-0.419076" q2="0.0751618" q3="0.903428" euler_x="0.0436402" euler_y="-0.870715" euler_z="0.145709" id="260" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="107.937" t1="-20.8803" t2="-19.2875" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0216371" q1="-0.084396" q2="0.0878833" q3="0.992313" euler_x="0.0285331" euler_y="-0.172147" euler_z="0.174205" id="261" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="108.075" t1="-20.1441" t2="-21.2803" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0504216" q1="-0.419076" q2="0.0751618" q3="0.903428" euler_x="0.0436402" euler_y="-0.870715" euler_z="0.145709" id="262" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="115.094" t1="-21.3328" t2="-13.8116" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.265475" q1="-0.355681" q2="-0.0489099" q3="0.894774" euler_x="0.699442" euler_y="-0.656742" euler_z="-0.356467" id="263" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="115.715" t1="-20.9646" t2="-7.58789" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="-0.00804931" q1="0.242149" q2="0.090149" q3="0.966008" euler_x="0.0318357" euler_y="0.488483" euler_z="0.194038" id="264" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="120.287" t1="-20.7907" t2="-7.72974" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="-0.0503043" q1="0.675836" q2="0.0752403" q3="0.731474" euler_x="0.332369" euler_y="1.48455" euler_z="0.510316" id="265" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="118.758" t1="-20.7686" t2="-6.00574" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="-0.000527203" q1="0.848111" q2="-0.0510953" q3="0.527348" euler_x="-2.94528" euler_y="1.10719" euler_z="-3.01877" id="266" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="122.036" t1="-20.7248" t2="-9.01343" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0195364" q1="-0.991184" q2="0.0215914" q3="0.129248" euler_x="-3.10252" euler_y="-0.259979" euler_z="-3.10729" id="267" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="125.396" t1="-20.921" t2="-10.8325" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0327504" q1="0.827617" q2="-0.0882405" q3="0.553345" euler_x="-2.85458" euler_y="1.17243" euler_z="-3.02936" id="268" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="128.39" t1="-20.6927" t2="-13.3558" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0929364" q1="0.985889" q2="0.0233157" q3="-0.137263" euler_x="3.12031" euler_y="-0.278575" euler_z="2.9566" id="269" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="130.608" t1="-20.8075" t2="-14.5638" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="-0.0136219" q1="0.460461" q2="-0.0931312" q3="0.882675" euler_x="-0.188523" euler_y="0.944728" euler_z="-0.306778" id="270" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="131.958" t1="-20.8977" t2="-17.8375" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.086554" q1="0.971061" q2="-0.0369783" q3="-0.219503" euler_x="-3.0203" euler_y="-0.433336" euler_z="2.93706" id="271" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="128.549" t1="-22.7436" t2="-20.8472" s0="0.309968" s1="0.312055" s2="0.306437" q0="-0.676702" q1="-0.223156" q2="0.0982491" q3="-0.694711" euler_x="1.58803" euler_y="0.458974" euler_z="0.185682" id="272" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="133.158" t1="-20.7372" t2="-20.5586" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0367533" q1="0.852066" q2="-0.0866498" q3="0.514902" euler_x="-2.90464" euler_y="1.08399" euler_z="-3.0847" id="273" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="95.119" t1="-6.4272" t2="-39.2192" s0="0.332298" s1="0.296093" s2="0.252969" q0="0.930847" q1="0.153672" q2="0.312993" q3="-0.10928" euler_x="-3.00498" euler_y="-0.664015" euler_z="0.280061" id="274" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="94.2363" t1="-0.00243515" t2="-36.3104" s0="0.332298" s1="0.296093" s2="0.252969" q0="0.259494" q1="-0.910042" q2="-0.276596" q3="-0.167269" euler_x="2.65683" euler_y="0.46452" euler_z="-2.70287" id="275" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="93.7202" t1="0.126582" t2="-33.1596" s0="0.332298" s1="0.296093" s2="0.252969" q0="-0.658608" q1="0.107398" q2="-0.118411" q3="-0.735308" euler_x="1.45531" euler_y="-0.319313" euler_z="0.0344169" id="276" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="179.278" t1="-16.1913" t2="-236.741" s0="1" s1="1" s2="1" q0="0" q1="0.999283" q2="0" q3="0.0378638" euler_x="3.14159" euler_y="0.0757457" euler_z="3.14159" id="277" type_file="Data/Items/DogWeapons/DogSpear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="91.1758" t1="3.06624" t2="-39.4239" s0="0.053038" s1="0.053038" s2="0.053038" q0="-0.0363089" q1="-0.819571" q2="-0.0453161" q3="-0.570028" euler_x="2.81898" euler_y="1.19732" euler_z="2.83195" id="278" color_r="0.32549" color_g="0.259116" color_b="0.259116" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="37.5452" t1="-17.4276" t2="87.8692" s0="4.23693" s1="4.68965" s2="5.24988" q0="0.146062" q1="0.925844" q2="0.176173" q3="-0.300735" euler_x="2.83656" euler_y="-0.653957" euler_z="2.93282" id="280" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-8.71806" t1="-30.3983" t2="46.1637" s0="4.23693" s1="4.68965" s2="5.24988" q0="0.0150068" q1="0.919907" q2="-0.204929" q3="-0.333992" euler_x="-2.63217" euler_y="-0.653958" euler_z="2.93282" id="281" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="103.902" t1="11.1144" t2="134.211" s0="4.13057" s1="4.57193" s2="5.1181" q0="0.0150068" q1="0.919907" q2="-0.204929" q3="-0.333992" euler_x="-2.63217" euler_y="-0.653958" euler_z="2.93282" id="282" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="137.559" t1="78.0742" t2="148.143" s0="4.13054" s1="4.57188" s2="5.11805" q0="0.0150068" q1="0.919907" q2="-0.204929" q3="-0.333992" euler_x="-2.63217" euler_y="-0.653958" euler_z="2.93282" id="283" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-72.5508" t1="0.702557" t2="14.1538" s0="4.13054" s1="4.57188" s2="5.11805" q0="-0.282813" q1="0.882237" q2="-0.223996" q3="0.302491" euler_x="-2.47283" euler_y="0.419211" euler_z="-2.37362" id="284" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-0.250481" t1="30.1088" t2="103.376" s0="4.13054" s1="4.57188" s2="5.11805" q0="-0.282813" q1="0.882237" q2="-0.223996" q3="0.302491" euler_x="-2.47283" euler_y="0.419211" euler_z="-2.37362" id="285" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-79.1667" t1="-15.8358" t2="-49.4383" s0="4.13054" s1="4.57188" s2="5.11805" q0="-0.275237" q1="0.936399" q2="0.156552" q3="0.151308" euler_x="2.91374" euler_y="0.378522" euler_z="-2.61366" id="286" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-58.3803" t1="-10.0247" t2="-187.508" s0="4.13054" s1="4.57188" s2="5.11805" q0="-0.2547" q1="0.486404" q2="0.0500774" q3="0.834285" euler_x="-0.758497" euler_y="0.991976" euler_z="-0.304895" id="287" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="70.7736" t1="-39.8179" t2="-174.589" s0="4.13077" s1="4.57214" s2="5.11834" q0="-0.2547" q1="0.486404" q2="0.0500774" q3="0.834285" euler_x="-0.758497" euler_y="0.991976" euler_z="-0.304895" id="288" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="65.6284" t1="-22.839" t2="-234.305" s0="4.13054" s1="4.57188" s2="5.11805" q0="-0.21176" q1="0.506575" q2="0.12191" q3="0.826848" euler_x="-0.518712" euler_y="1.09593" euler_z="-0.0283107" id="289" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-15.0292" t1="-1.8986" t2="-348.597" s0="5.58044" s1="4.36831" s2="4.61182" q0="-0.196962" q1="0.411923" q2="0.144604" q3="0.877847" euler_x="-0.370789" euler_y="0.894943" euler_z="0.146979" id="290" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-87.9791" t1="-22.8493" t2="-197.553" s0="4.13054" s1="4.57188" s2="5.11805" q0="0.123342" q1="0.436474" q2="-0.00900999" q3="0.891177" euler_x="0.345697" euler_y="0.894944" euler_z="0.146976" id="291" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="39.0724" t1="-21.4684" t2="-128.99" s0="1.24178" s1="1.37447" s2="1.53866" q0="0.123547" q1="0.436417" q2="-0.00859311" q3="0.891181" euler_x="0.346798" euler_y="0.894628" euler_z="0.148384" id="292" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-178.701" t1="-31.28" t2="-79.8978" s0="4.13054" s1="4.57188" s2="5.11805" q0="0.123342" q1="0.436474" q2="-0.00900999" q3="0.891177" euler_x="0.345697" euler_y="0.894944" euler_z="0.146976" id="293" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="273.573" t1="-30.271" t2="-292.196" s0="8.63002" s1="9.55214" s2="10.6933" q0="0.127656" q1="-0.390422" q2="-0.225479" q3="0.883422" euler_x="0.544938" euler_y="-0.68445" euler_z="-0.698224" id="294" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="182.604" t1="-1.79153" t2="-489.412" s0="10.8536" s1="12.0133" s2="13.4484" q0="-0.0429386" q1="-0.408511" q2="0.155004" q3="0.89847" euler_x="-0.298414" euler_y="-0.804896" euler_z="0.469483" id="295" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-3.97772" t1="-54.1861" t2="-646.449" s0="10.8536" s1="12.0133" s2="13.4484" q0="0.344883" q1="0.233349" q2="-0.153971" q3="0.896045" euler_x="0.69642" euler_y="0.551994" euler_z="-0.135442" id="296" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-157.429" t1="1.56192" t2="-648.993" s0="10.5119" s1="11.6351" s2="13.0251" q0="0.0311423" q1="-0.912748" q2="0.269926" q3="0.30506" euler_x="-2.52483" euler_y="-0.611014" euler_z="3.00955" id="297" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-338.567" t1="17.7051" t2="-558.074" s0="15.993" s1="17.7018" s2="19.8165" q0="0.0311423" q1="-0.912748" q2="0.269926" q3="0.30506" euler_x="-2.52483" euler_y="-0.611014" euler_z="3.00955" id="298" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-271.075" t1="169.264" t2="-506.942" s0="5.55882" s1="6.15278" s2="6.88781" q0="-0.0971787" q1="-0.300726" q2="-0.282803" q3="-0.905618" euler_x="0.408208" euler_y="0.51177" euler_z="0.713561" id="299" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-536.08" t1="-103.204" t2="-315.323" s0="15.993" s1="17.7018" s2="19.8165" q0="-0.198627" q1="-0.657824" q2="0.359444" q3="0.63136" euler_x="-1.49408" euler_y="-0.758532" euler_z="1.74228" id="300" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="438.427" t1="32.5996" t2="451.854" s0="8.13354" s1="9.00261" s2="10.0781" q0="0.269539" q1="0.209197" q2="0.0280219" q3="0.939575" euler_x="0.594097" euler_y="0.387642" euler_z="0.179654" id="301" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="-690.458" t1="-55.555" t2="262.043" s0="15.993" s1="17.7018" s2="19.8165" q0="0.258664" q1="-0.636614" q2="-0.116911" q3="0.717041" euler_x="1.46418" euler_y="-1.0207" euler_z="-1.2555" id="302" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="184.434" t1="-15.75" t2="-236.282" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="304" type_file="Data/Items/DogWeapons/DogBroadSword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="180.986" t1="-17.0232" t2="-237.071" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="305" type_file="Data/Items/DogWeapons/DogSword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="104.404" t1="-3.56559" t2="-34.7207" s0="0.319513" s1="0.319513" s2="0.319513" q0="0.505852" q1="0.601206" q2="-0.533799" q3="-0.312606" euler_x="-1.811" euler_y="0.164912" euler_z="1.87214" id="306" color_r="0.368627" color_g="0.264272" color_b="0.218285" overbright="0" type_file="Data/Objects/Environment/Rocks/CliffPeak.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="180.29" t1="-17.0232" t2="-237.052" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="307" type_file="Data/Items/DogWeapons/DogSword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ActorObject t0="179.133" t1="-16.1232" t2="-236.317" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="308" type_file="Data/Objects/IGF_Characters/base_guard_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.10155" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="3" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.626945" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="3" />
+        </parameters>
+        <Connections>
+            <Connection id="308" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="277" type="0" mirrored="0" attachment="" />
+            <ItemConnection id="317" type="1" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Clothes" channel="0" red="0.415686" green="0" blue="0" />
+            <Color label="Fur" channel="1" red="0.870588" green="0.651284" blue="0.392618" />
+            <Color label="Leather" channel="2" red="0.294118" green="0.00692041" blue="0.00692041" />
+            <Color label="Armor" channel="3" red="0.027451" green="0.0274507" blue="0.0274507" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="177.152" t1="-16.1232" t2="-236.386" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="310" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="1" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.61658" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.11399" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="2" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1.18808" />
+            <parameter name="Muscle" type="float" val="0.709845" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="3" />
+        </parameters>
+        <Connections>
+            <Connection id="310" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="314" type="0" mirrored="0" attachment="" />
+            <ItemConnection id="316" type="1" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.278431" green="0.231577" blue="0.181253" />
+            <Color label="Pants" channel="1" red="0.643137" green="0" blue="0" />
+            <Color label="Shirt" channel="2" red="0.509804" green="0.00399846" blue="0.00399846" />
+            <Color label="Leather" channel="3" red="0" green="0" blue="0" />
+        </Palette>
+    </ActorObject>
+    <NavmeshConnectionObject t0="90.8835" t1="5.38008" t2="-40.3234" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="311" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="313" offmesh_connection_id="1050" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="92.1944" t1="8.02324" t2="-38.3698" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="313" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="311" offmesh_connection_id="1050" poly_area="7" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <ItemObject t0="177.771" t1="-17.0232" t2="-237.23" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="314" type_file="Data/Items/Rapier.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <EnvObject t0="132.623" t1="-21.0276" t2="-24.3929" s0="0.0483349" s1="0.0391726" s2="0.0438353" q0="0.0896851" q1="0.59171" q2="0.0285582" q3="-0.800637" euler_x="-0.369351" euler_y="-1.26171" euler_z="0.19991" id="315" color_r="0.270588" color_g="0.147022" color_b="0.0562399" overbright="0" type_file="Data/Objects/Environment/Land/jagged_outcrop.xml">
+        <parameters />
+    </EnvObject>
+    <ItemObject t0="177.409" t1="-17.0232" t2="-237.388" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="316" type_file="Data/Items/MainGauche.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="178.765" t1="-15.7993" t2="-237.224" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="317" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ActorObject t0="183.135" t1="-16.0779" t2="-238.976" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="318" type_file="Data/Objects/IGF_Characters/base_guard_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.60622" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.05181" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="1" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.58031" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="2" />
+        </parameters>
+        <Connections>
+            <Connection id="318" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="360" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Clothes" channel="0" red="0.0235294" green="0.0235292" blue="0.0235292" />
+            <Color label="Fur" channel="1" red="0.458824" green="0.374674" blue="0.31308" />
+            <Color label="Leather" channel="2" red="0" green="0" blue="0" />
+            <Color label="Armor" channel="3" red="0.0156863" green="0.0156861" blue="0.0156861" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="179.162" t1="-16.1224" t2="-238.939" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="322" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.05596" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="1" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.740935" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="2" />
+        </parameters>
+        <Connections>
+            <Connection id="322" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="359" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="0" green="0" blue="0" />
+            <Color label="Shirt" channel="2" red="0" green="0" blue="0" />
+            <Color label="Leather" channel="3" red="0.0392157" green="0.0392153" blue="0.0392153" />
+        </Palette>
+    </ActorObject>
+    <NavmeshConnectionObject t0="94.7677" t1="7.92078" t2="-37.4918" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="327" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="186" offmesh_connection_id="1051" poly_area="8" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <PlaceholderObject t0="136.184" t1="2.59936" t2="-32.8927" s0="1" s1="1" s2="1" q0="0" q1="-0.866025" q2="0" q3="0.5" euler_x="3.14159" euler_y="-1.0472" euler_z="3.14159" id="328" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="328" />
+        </Connections>
+    </PlaceholderObject>
+    <ActorObject t0="181.14" t1="-16.1232" t2="-241.63" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="330" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.15544" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.70466" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="1" />
+        </parameters>
+        <Connections>
+            <Connection id="330" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="0.0862745" green="0.0862736" blue="0.0862736" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="179.132" t1="-16.1232" t2="-241.626" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="334" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.16062" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.71503" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="1" />
+        </parameters>
+        <Connections>
+            <Connection id="334" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="357" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="0.0862745" green="0.0862736" blue="0.0862736" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="177.102" t1="-16.1232" t2="-241.63" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="338" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.1658" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="0.70466" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="1" />
+        </parameters>
+        <Connections>
+            <Connection id="338" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="1" green="1" blue="1" />
+            <Color label="Shirt" channel="2" red="1" green="1" blue="1" />
+            <Color label="Leather" channel="3" red="0.0862745" green="0.0862736" blue="0.0862736" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="183.172" t1="-15.8688" t2="-236.337" s0="1" s1="1" s2="1" q0="0.00013182" q1="-1" q2="-1.13249e-005" q3="0.000493646" euler_x="3.14157" euler_y="-0.000987289" euler_z="-3.14133" id="339" type_file="Data/Objects/characters/rabbits/male_rabbit_2_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="1" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1.50716" />
+            <parameter name="Attack Speed" type="float" val="0.85387" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.65616" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.20745" />
+            <parameter name="Damage Resistance" type="float" val="2" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="20" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="6" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="0.99857" />
+            <parameter name="Muscle" type="float" val="0.65616" />
+            <parameter name="Peripheral FOV distance" type="float" val="5.128" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="3" />
+        </parameters>
+        <Connections>
+            <Connection id="339" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="304" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.831373" green="0.504345" blue="0.264083" />
+            <Color label="Ropes" channel="1" red="0.145098" green="0.0546251" blue="0" />
+            <Color label="Pants" channel="2" red="0.392157" green="0" blue="0" />
+            <Color label="Spots" channel="3" red="0.270588" green="0" blue="0" />
+        </Palette>
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.997603" m1="0.000349195" m2="0.0691924" m3="0" m4="0.00640204" m5="0.995232" m6="-0.0973261" m7="0" m8="-0.0688964" m9="0.0975358" m10="0.992845" m11="0" m12="-0.00538635" m13="0.539602" m14="0.165527" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="31" num_connections="1" m0="0.994839" m1="0.0250974" m2="0.0983105" m3="0" m4="0.00385991" m5="0.958863" m6="-0.283845" m7="0" m8="-0.10139" m9="0.282759" m10="0.953817" m11="0" m12="0.00137329" m13="0.547428" m14="0.0415344" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="-0.99675" m1="0.080342" m2="0.00578472" m3="0" m4="0.0804011" m5="0.987975" m6="0.132065" m7="0" m8="0.00489521" m9="0.132101" m10="-0.991224" m11="0" m12="-0.179413" m13="0.408836" m14="-0.0352097" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="19" num_connections="1" m0="0.363261" m1="0.926346" m2="-0.0996254" m3="0" m4="-0.906542" m5="0.326755" m6="-0.267231" m7="0" m8="-0.214995" m9="0.187389" m10="0.958469" m11="0" m12="-0.31311" m13="0.334137" m14="-0.0214462" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="19" num_connections="1" m0="-0.973317" m1="0.108547" m2="0.202168" m3="0" m4="0.148512" m5="0.969617" m6="0.194392" m7="0" m8="-0.174925" m9="0.219229" m10="-0.959864" m11="0" m12="-0.306519" m13="0.293777" m14="-0.0120926" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="21" num_connections="1" m0="-0.988581" m1="0.0478623" m2="0.142883" m3="0" m4="0.0445348" m5="0.998659" m6="-0.0263978" m7="0" m8="-0.143955" m9="-0.0197332" m10="-0.989387" m11="0" m12="-0.449615" m13="0.20723" m14="-0.0346832" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.840276" m1="0.481571" m2="-0.249049" m3="0" m4="0.0830521" m5="-0.568279" m6="-0.818634" m7="0" m8="-0.53576" m9="0.667194" m10="-0.517507" m11="0" m12="-0.197998" m13="0.425335" m14="-0.136482" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.873313" m1="0.484501" m2="0.0508119" m3="0" m4="-0.293835" m5="0.607069" m6="-0.738328" m7="0" m8="-0.388567" m9="0.629861" m10="0.672525" m11="0" m12="-0.180542" m13="0.434353" m14="0.0734558" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.86104" m1="0.500171" m2="-0.0918687" m3="0" m4="-0.092759" m5="-0.0231496" m6="-0.995419" m7="0" m8="-0.500007" m9="0.865617" m10="0.0264626" m11="0" m12="-0.20816" m13="0.469543" m14="-0.0310287" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="1" s1="1" s2="1" id="340" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_helmet.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.11146" s1="1.11146" s2="1.11146" id="342" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_head_straps.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.67199" s1="1.67199" s2="1.67199" id="344" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_b.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.37916" s1="1.37916" s2="1.37916" id="345" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_a.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.77571" s1="1.69489" s2="2.05064" id="346" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.26785" s1="1.24231" s2="1.46014" id="348" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_lower_arm.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.560838" s1="1.1185" s2="0.205419" id="349" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/LargeNail1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.560838" s1="1.1185" s2="0.205419" id="351" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/LargeNail1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.560838" s1="1.1185" s2="0.205419" id="353" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/LargeNail1.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <ActorObject t0="177.132" t1="-16.1232" t2="-238.927" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="350" type_file="Data/Objects/characters/raider_rabbit_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.05596" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="1" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.740935" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="2" />
+        </parameters>
+        <Connections>
+            <Connection id="350" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="358" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Fur" channel="0" red="0.317647" green="0.203133" blue="0.153218" />
+            <Color label="Pants" channel="1" red="0" green="0" blue="0" />
+            <Color label="Shirt" channel="2" red="0" green="0" blue="0" />
+            <Color label="Leather" channel="3" red="0.0392157" green="0.0392153" blue="0.0392153" />
+        </Palette>
+    </ActorObject>
+    <ActorObject t0="181.135" t1="-16.1232" t2="-238.955" s0="1" s1="1" s2="1" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="356" type_file="Data/Objects/IGF_Characters/base_guard_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.60622" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1.05181" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="1" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.58031" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard" />
+            <parameter name="_ Endless Difficulty" type="int" val="2" />
+        </parameters>
+        <Connections>
+            <Connection id="356" />
+        </Connections>
+        <ItemConnections>
+            <ItemConnection id="361" type="0" mirrored="0" attachment="" />
+        </ItemConnections>
+        <Palette>
+            <Color label="Clothes" channel="0" red="0.0235294" green="0.0235292" blue="0.0235292" />
+            <Color label="Fur" channel="1" red="0.458824" green="0.374674" blue="0.31308" />
+            <Color label="Leather" channel="2" red="0" green="0" blue="0" />
+            <Color label="Armor" channel="3" red="0.0156863" green="0.0156861" blue="0.0156861" />
+        </Palette>
+    </ActorObject>
+    <ItemObject t0="179.378" t1="-16.5232" t2="-242.765" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="357" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="177.796" t1="-17.0232" t2="-240.16" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="358" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="179.557" t1="-17.0232" t2="-240.261" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="359" type_file="Data/Items/DogWeapons/DogKnife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="183.552" t1="-17.0232" t2="-239.97" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="360" type_file="Data/Items/staffbasic.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ItemObject t0="181.566" t1="-17.0232" t2="-240.193" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="361" type_file="Data/Items/staffbasic.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+        <parameters />
+    </ItemObject>
+    <ActorObject t0="157.441" t1="-16.1232" t2="-229.297" s0="1" s1="1" s2="1" q0="0" q1="-0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="-0.523599" euler_z="0" id="364" type_file="Data/Objects/IGF_Characters/base_guard_actor.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Focus FOV distance" type="float" val="100" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Knockout Shield" type="int" val="2" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.56995" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player" />
+            <parameter name="_ Endless Difficulty" type="int" val="2" />
+        </parameters>
+        <Connections>
+            <Connection id="364" />
+        </Connections>
+        <ItemConnections />
+        <Palette>
+            <Color label="Clothes" channel="0" red="0.138838" green="0.0482122" blue="0.215686" />
+            <Color label="Fur" channel="1" red="0.443137" green="0.440127" blue="0.437924" />
+            <Color label="Leather" channel="2" red="0.054902" green="0.0549014" blue="0.0549014" />
+            <Color label="Armor" channel="3" red="0.160784" green="0.139977" blue="0.139977" />
+        </Palette>
+    </ActorObject>
+    <Hotspot t0="100.849" t1="22.9656" t2="-39.608" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="366" type_file="Data/Objects/xep_endless/endless_level.xml">
+        <parameters>
+            <parameter name="Difficulty 1 Number of NPCs" type="int" val="3" />
+            <parameter name="Difficulty 1 Runner % Chance" type="int" val="5" />
+            <parameter name="Difficulty 2 Number of NPCs" type="int" val="4" />
+            <parameter name="Difficulty 2 Runner % Chance" type="int" val="10" />
+            <parameter name="Difficulty 3 Number of NPCs" type="int" val="5" />
+            <parameter name="Difficulty 3 Runner % Chance" type="int" val="20" />
+            <parameter name="Music" type="string" val="cats" />
+            <parameter name="Score to Unlock Difficulty 2" type="int" val="3" />
+            <parameter name="Score to Unlock Difficulty 3" type="int" val="10" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <PlaceholderObject t0="125.811" t1="-17.4132" t2="-4.61251" s0="1" s1="1" s2="1" q0="0" q1="-0.965926" q2="0" q3="0.258819" euler_x="3.14159" euler_y="-0.523599" euler_z="3.14159" id="367" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="367" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="118.055" t1="-13.4087" t2="-58.2753" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="370" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="370" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="75.7328" t1="-7.78575" t2="-32.8767" s0="1" s1="1" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="371" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="371" />
+        </Connections>
+    </PlaceholderObject>
+    <Hotspot t0="124.344" t1="-11.5493" t2="-44.7614" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="374" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="104.937" t1="-19.4728" t2="-64.2084" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="375" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="98.2408" t1="-21.6527" t2="-31.0209" s0="60.8446" s1="0.381963" s2="58.1937" q0="0" q1="0" q2="-0.000186371" q3="1" euler_x="0" euler_y="0" euler_z="-0.000372742" id="376" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+        <parameters>
+            <parameter name="Delay Max" type="float" val="10" />
+            <parameter name="Delay Min" type="float" val="3" />
+            <parameter name="Fade Distance" type="float" val="40" />
+            <parameter name="Gain" type="float" val="0.306" />
+            <parameter name="Global" type="int" val="0" />
+            <parameter name="Sound Path" type="string" val="Data/Sounds/ambient/lava_loop_old.wav" />
+            <parameter name="Wind Scale" type="int" val="0" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="100.711" t1="39.3136" t2="-34.2051" s0="40.8959" s1="8.3006" s2="33.3249" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="377" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+        <parameters>
+            <parameter name="Delay Max" type="float" val="10" />
+            <parameter name="Delay Min" type="float" val="3" />
+            <parameter name="Fade Distance" type="float" val="33" />
+            <parameter name="Gain" type="float" val="1" />
+            <parameter name="Global" type="int" val="0" />
+            <parameter name="Sound Path" type="string" val="Data/Sounds/ambient/amb_deadvolcano_loop_3.wav" />
+            <parameter name="Wind Scale" type="int" val="0" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <PlaceholderObject t0="100.199" t1="11.9205" t2="-37.9017" s0="1" s1="1" s2="1" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="378" type_file="Data/Objects/IGF_Characters/pale_turner.xml" special_type="0">
+        <parameters>
+            <parameter name="Name" type="string" val="character_spawn" />
+        </parameters>
+        <Connections>
+            <Connection id="378" />
+        </Connections>
+    </PlaceholderObject>
+    <EnvObject t0="94.5241" t1="2.96726" t2="-37.4614" s0="0.786187" s1="0.590309" s2="0.786187" q0="0.5" q1="0" q2="0.866025" q3="0" euler_x="0" euler_y="-1.0472" euler_z="3.14159" id="379" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="94.399" t1="2.45452" t2="-33.1173" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="382" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="93.9702" t1="-16.1088" t2="-50.2272" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="385" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="123.285" t1="-19.3187" t2="-13.1035" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="386" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <Hotspot t0="119.574" t1="2.42196" t2="-66.4545" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="395" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <EnvObject t0="124.135" t1="-6.85683" t2="-19.1474" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="399" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_hourglass.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="124.122" t1="-23.4584" t2="-19.1775" s0="0.786187" s1="0.786187" s2="0.786187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="400" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_chipped.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot t0="127.131" t1="2.43944" t2="-19.2025" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="401" type_file="Data/Objects/xep_endless/runner_hiding_spot.xml">
+        <parameters>
+            <parameter name="Name" type="string" val="runner_hiding_spot" />
+        </parameters>
+        <Connections />
+    </Hotspot>
+    <EnvObject t0="124.081" t1="-4.63195" t2="-47.0278" s0="0.786188" s1="0.381977" s2="0.786187" q0="-1" q1="0" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="0" id="426" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_slope.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="119.734" t1="2.33511" t2="-62.1614" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="434" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="435" offmesh_connection_id="1052" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="128.673" t1="2.08383" t2="-52.601" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="435" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="434" offmesh_connection_id="1052" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="131.61" t1="2.10793" t2="-47.8506" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="436" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="437" offmesh_connection_id="1053" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="135.004" t1="2.46582" t2="-35.8893" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="437" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="436" offmesh_connection_id="1053" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="134.323" t1="2.46688" t2="-30.5941" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="438" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="439" offmesh_connection_id="1054" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="125.645" t1="2.40364" t2="-21.382" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="439" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="438" offmesh_connection_id="1054" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <EnvObject t0="106.599" t1="-1.41075" t2="-23.5776" s0="0.786187" s1="0.543156" s2="0.786187" q0="-0.5" q1="0" q2="-0.866025" q3="0" euler_x="0" euler_y="-1.0472" euler_z="-3.14159" id="440" color_r="0.278431" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/Crete/hex_crete_half.xml">
+        <parameters />
+    </EnvObject>
+    <NavmeshConnectionObject t0="108.808" t1="3.39893" t2="-21.4771" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="449" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="450" offmesh_connection_id="1055" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+    <NavmeshConnectionObject t0="120.9" t1="2.3758" t2="-19.1296" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="450" type_file="">
+        <parameters />
+        <NavMeshConnections>
+            <NavMeshConnection other_object_id="449" offmesh_connection_id="1055" poly_area="9" />
+        </NavMeshConnections>
+    </NavmeshConnectionObject>
+</ActorObjects>
+<RecentItems>
+    <SpawnerItem display_name="MagmaFloor" path="Data/Prototypes/MagmaArena/MagmaFloor.xml" thumbnail_path="" />
+    <SpawnerItem display_name="MagmaFlow_Cross" path="Data/Prototypes/MagmaArena/MagmaFlow_Cross.xml" thumbnail_path="" />
+    <SpawnerItem display_name="MagmaFlow_Fall" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall.xml" thumbnail_path="" />
+    <SpawnerItem display_name="MagmaFlow_Fall3" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall3.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Cliff Rock 03 detail" path="Data/Objects/Environment/Cliffs/CliffRock_03_Detail.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_03.png" />
+    <SpawnerItem display_name="Cliff Decal 02" path="Data/Objects/Decals/Cliffs/CliffDecal_02.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/Cliff_Decal_02.png" />
+    <SpawnerItem display_name="Cliff Decal 01" path="Data/Objects/Decals/Cliffs/CliffDecal_01.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/Cliff_Decal_01.png" />
+    <SpawnerItem display_name="Rock GrassCliff_Big1" path="Data/Prototypes/OG/GrassCliff_Big1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Rock GrassCliff_Ledge3" path="Data/Prototypes/OG/GrassCliff_Ledge3.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Rock GrassCliff_Ledge2" path="Data/Prototypes/OG/GrassCliff_Ledge2.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Rock GrassCliff_Ledge1" path="Data/Prototypes/OG/GrassCliff_Ledge1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="CA Large Sandstone Rock OutCrop_5" path="Data/Prototypes/CaveArena/OutCrop_5.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Jagged Rocky Outcrop" path="Data/Objects/Environment/Land/jagged_outcrop.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/jagged_outcrop.png" />
+    <SpawnerItem display_name="Granite Vine Rock Large" path="Data/Objects/Environment/Rocks/granite_vine_rocks/granite_vine_rock_large.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/granite_vine_rock_large.png" />
+    <SpawnerItem display_name="plant HangingVines_1" path="Data/Prototypes/Lugaru/HangingVines_1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="plant HangingVines_2" path="Data/Prototypes/Lugaru/HangingVines_2.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Granite Rock Vine Boulder Overgrown Detailed" path="Data/Objects/Environment/Rocks/granite_vine_rocks/granite_vine_boulder_overgrown_detailed.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/granite_vine_boulder_overgrown_detailed.png" />
+    <SpawnerItem display_name="Granite Rock Vine Boulder Overgrown" path="Data/Objects/Environment/Rocks/granite_vine_rocks/granite_vine_boulder_overgrown.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/granite_vine_boulder_overgrown.png" />
+    <SpawnerItem display_name="Granite Vine Rock Large Detailed" path="Data/Objects/Environment/Rocks/granite_vine_rocks/granite_vine_rock_large_detailed.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/granite_vine_rock_large_detailed.png" />
+    <SpawnerItem display_name="Plant Low Fern" path="Data/Objects/plants/trees/temperate/low_fern_.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/low_fern.png" />
+    <SpawnerItem display_name="Old Rocky Cliff No DT" path="Data/Objects/Environment/Rocks/CliffPeak.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Arena Deck Left" path="Data/Objects/Buildings/arena/arena_deck_left.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Arena Deck Left.png" />
+    <SpawnerItem display_name="Arena Buttress Stone" path="Data/Objects/Buildings/arena/arena_buttress.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Arena Buttress.png" />
+    <SpawnerItem display_name="Arena Small Stone Support" path="Data/Objects/Buildings/arena/arena_small_support.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Arena Small Support.png" />
+    <SpawnerItem display_name="MagmaArenaWalls" path="Data/Prototypes/MagmaArena/MagmaArenaWalls.xml" thumbnail_path="" />
+    <SpawnerItem display_name="MagmaArenaMain" path="Data/Prototypes/MagmaArena/MagmaArenaMain.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Ruins All Grouped" path="Data/Objects/Buildings/Ruins/mysterious/ruins_all_objects.xml" thumbnail_path="Data/UI/spawner/thumbs/Prefabs/ruins_all_objects.png" />
+    <SpawnerItem display_name="Lugaru BlockRuins_Mossy_Block1" path="Data/Prototypes/Lugaru/BlockRuins_Mossy_Block1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Old Stone Ruins Wall No DT" path="Data/Objects/Buildings/Ruins/Ruins1Wall.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Old Stone Ruins Pillar No DT" path="Data/Objects/Buildings/Ruins/Ruins1Pillar.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Old Stone Ruins Brick2 No DT" path="Data/Objects/Buildings/Ruins/Ruins1ShortBrick.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Babylon Arch Fancy" path="Data/Objects/Buildings/cat_town/babylon_arch.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/babylon_arch.png" />
+    <SpawnerItem display_name="Crete Dirty Cube" path="Data/Objects/Crete/dirty_cube.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/dirty_cube.png" />
+    <SpawnerItem display_name="Large Dark Crete Cube Broken Ended" path="Data/Objects/Crete/large_dark_cube_broken_ended.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/large_dark_cube_broken_ended.png" />
+    <SpawnerItem display_name="Particle Emitter" path="Data/Objects/Hotspots/emitter.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/emitter_icon.png" />
+    <SpawnerItem display_name="Cliff Rock 01 lichen" path="Data/Objects/Environment/Cliffs/CliffRock_01_lichen.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_01.png" />
+    <SpawnerItem display_name="Cliff Rock 04 lichen" path="Data/Objects/Environment/Cliffs/CliffRock_04_lichen.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_04.png" />
+    <SpawnerItem display_name="Cliff Rock 03 lichen" path="Data/Objects/Environment/Cliffs/CliffRock_03_lichen.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_03.png" />
+    <SpawnerItem display_name="Sandstone Bridge" path="Data/Objects/Environment/Land/sandstone_bridge.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sandstone_bridge.png" />
+    <SpawnerItem display_name="CA Large Sandstone Rock Column_1" path="Data/Prototypes/CaveArena/Column_1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="RaiderBase_SandBarrier1" path="Data/Prototypes/Lugaru/RaiderBase_SandBarrier1.xml" thumbnail_path="" />
+    <SpawnerItem display_name="CA Sandstone Rock_Stack" path="Data/Prototypes/CaveArena/CArocks_Stack.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Sandstone Spire" path="Data/Objects/Environment/Land/sandstone_spire.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/sandstone_spire.png" />
+    <SpawnerItem display_name="Elm Tree Large" path="Data/Objects/Plants/Trees/prefabs/elm_large.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Tree Trunk Mossy Rotting Megascan" path="Data/Objects/plants/trees/temperate/mossy_trunk_rotting.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/evergreen_stump_rotting.png" />
+    <SpawnerItem display_name="Tree Segment Elm Trunk" path="Data/Objects/plants/trees/elm/elm_trunk.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/elm_trunk.png" />
+    <SpawnerItem display_name="Large Dark Crete Cube" path="Data/Objects/Crete/large_dark_cube.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/large_dark_cube.png" />
+    <SpawnerItem display_name="Marble Crete Block Box end" path="Data/Objects/Crete/box_end.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/box_end.png" />
+    <SpawnerItem display_name="Marble Crete Block Box Full" path="Data/Objects/Crete/box_full.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/box_full.png" />
+    <SpawnerItem display_name="Crete Block Marble Standard" path="Data/Objects/Crete/crete_block_marble_standard.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/crete_block_marble_standard.png" />
+    <SpawnerItem display_name="Hanging Garden Arena" path="Data/Objects/Buildings/hanging_garden_arena/hanging_garden_arena.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hanging_garden_arena.png" />
+    <SpawnerItem display_name="default Turner" path="Data/Objects/IGF_Characters/IGF_TurnerActor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/IGF_TurnerActor.png" />
+    <SpawnerItem display_name="Endless Level" path="Data/Objects/xep_survive/endless_level.xml" thumbnail_path="Data/UI/xep_survive/thumbs/mod_item_example.png" />
+    <SpawnerItem display_name="Bastard Sword" path="Data/Items/Bastard.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword2.png" />
+    <SpawnerItem display_name="Cat Rapier" path="Data/Items/Rapier.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wcatsword.png" />
+    <SpawnerItem display_name="Path Point" path="Data/Objects/pathpoint/pathpoint.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/pathpoint.png" />
+    <SpawnerItem display_name="Endless Level" path="Data/Objects/xep_endless/endless_level.xml" thumbnail_path="Data/UI/xep_endless/thumbs/mod_item_example.png" />
+    <SpawnerItem display_name="Hex Crete Tall" path="Data/Objects/Crete/hex_crete_tall.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_tall.png" />
+    <SpawnerItem display_name="Hex Crete Slope" path="Data/Objects/Crete/hex_crete_slope.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_slope.png" />
+    <SpawnerItem display_name="Hex Crete Hourglass" path="Data/Objects/Crete/hex_crete_hourglass.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_hourglass.png" />
+    <SpawnerItem display_name="Hex Crete Rubble" path="Data/Objects/Crete/hex_crete_rubble.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_rubble.png" />
+    <SpawnerItem display_name="Hex Crete Half Slope" path="Data/Objects/Crete/hex_crete_half_slope.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_half_slope.png" />
+    <SpawnerItem display_name="Hex Crete Half" path="Data/Objects/Crete/hex_crete_half.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_half.png" />
+    <SpawnerItem display_name="Hex Crete Corner" path="Data/Objects/Crete/hex_crete_corner.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_corner.png" />
+    <SpawnerItem display_name="Hex Crete Chunk" path="Data/Objects/Crete/hex_crete_chunk.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_chunk.png" />
+    <SpawnerItem display_name="Hex Crete Chipped" path="Data/Objects/Crete/hex_crete_chipped.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_chipped.png" />
+    <SpawnerItem display_name="Hex Crete Boulder" path="Data/Objects/Crete/hex_crete_boulder.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/hex_crete_boulder.png" />
+    <SpawnerItem display_name="Coast Rock Large" path="Data/Objects/Environment/Rocks/coast_rock_large.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/coast_rock_large.png" />
+    <SpawnerItem display_name="Cliff Rock 04 detail" path="Data/Objects/Environment/Cliffs/CliffRock_04_Detail.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/Cliff_Rock_04.png" />
+    <SpawnerItem display_name="Strata Rock Capital" path="Data/Objects/Environment/Rocks/strata_rocks/strata_rock_capital.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/strata_rock_capital.png" />
+    <SpawnerItem display_name="Hex Crete Damage" path="Data/Objects/Decals/hex_crete_damage.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/hex_crete_damage.png" />
+    <SpawnerItem display_name="Edged Stone Cube" path="Data/Objects/primitives/edged_cube.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/edged_cube.png" />
+    <SpawnerItem display_name="Lava Kill" path="Data/Objects/Hotspots/lava_kill.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/kill.png" />
+    <SpawnerItem display_name="Scratches 3" path="Data/Objects/Decals/Scratches/scratches_03.xml" thumbnail_path="Data/UI/spawner/thumbs/Decal/scratches_03.png" />
+    <SpawnerItem display_name="MagmaFlow_Fall2" path="Data/Prototypes/MagmaArena/MagmaFlow_Fall2.xml" thumbnail_path="" />
+    <SpawnerItem display_name="nav region" path="Data/Objects/navmesh/navmesh_region.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="nav hint" path="Data/Objects/navmesh/navmesh_hint.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+    <SpawnerItem display_name="Volcano rocks" path="Data/Objects/Sounds/deadvolcanorocks.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Canyon rock (many)" path="Data/Objects/Sounds/canyonrocksfall.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Male Rabbit Guard Brown" path="Data/Objects/IGF_Characters/IGF_GuardActor_reddy.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/IGF_GuardActor_reddy.png" />
+    <SpawnerItem display_name="beast_of_gevaudan.xml" path="Data/Objects/xep_endless/beast_of_gevaudan.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="badass_sword_dude.xml" path="Data/Objects/xep_endless/badass_sword_dude.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Dog Broad Sword" path="Data/Items/DogWeapons/DogBroadSword.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword1.png" />
+    <SpawnerItem display_name="hexcrete.xml" path="Data/Objects/xep_endless/hexcrete.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Bastard Sword" path="Data/Items/Bastard.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Dog Hammer" path="Data/Items/DogWeapons/DogHammer.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Macuahuitl Glass" path="Data/Items/macuahuitl_glass.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Runner Hiding Spot" path="Data/Objects/xep_endless/runner_hiding_spot.xml" thumbnail_path="Data/UI/xep_endless/thumbs/rabbit_foot.png" />
+    <SpawnerItem display_name="Character Spawn Point" path="Data/Objects/xep_endless/character_spawn.xml" thumbnail_path="Data/UI/xep_endless/thumbs/character_spawn.png" />
+    <SpawnerItem display_name="Crete Cube" path="Data/Objects/Crete/CreteCube.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/CreteCube.png" />
+    <SpawnerItem display_name="Dog Broad Sword" path="Data/Items/DogWeapons/DogBroadSword.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Dog Sword" path="Data/Items/DogWeapons/DogSword.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Dog Sword" path="Data/Items/DogWeapons/DogSword.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/wsword.png" />
+    <SpawnerItem display_name="Dog Spear" path="Data/Items/DogWeapons/DogSpear.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Cat Rapier" path="Data/Items/Rapier.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Cat Gauche" path="Data/Items/MainGauche.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Turner Pale" path="Data/Objects/IGF_Characters/pale_turner_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/pale_turner_actor.png" />
+    <SpawnerItem display_name="Male Rabbit Buttons" path="Data/Objects/characters/rabbits/male_rabbit_3_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/Male_rabbit_3_actor.png" />
+    <SpawnerItem display_name="Staff" path="Data/Items/staffbasic.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Dog Knife" path="Data/Items/DogWeapons/DogKnife.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Raider Rabbit" path="Data/Objects/characters/raider_rabbit_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/raider_rabbit_actor.png" />
+    <SpawnerItem display_name="Male Rabbit Guard" path="Data/Objects/IGF_Characters/base_guard_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/base_guard_actor.png" />
+    <SpawnerItem display_name="Generic Male Wolf" path="Data/Objects/characters/wolves/male_wolf_actor.xml" thumbnail_path="Data/UI/spawner/thumbs/Character/male_wolf_actor.png" />
+    <SpawnerItem display_name="Ambient sound hotspot" path="Data/Objects/Hotspots/ambient_sound.xml" thumbnail_path="Data/UI/spawner/thumbs/Sounds/speaker_icon.png" />
+    <SpawnerItem display_name="Endless Level" path="Data/Objects/xep_endless/endless_level.xml" thumbnail_path="Data/UI/xep_endless/thumbs/infinity.png" />
+    <SpawnerItem display_name="nav connection" path="Data/Objects/navmesh/navmesh_connection.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
+</RecentItems>

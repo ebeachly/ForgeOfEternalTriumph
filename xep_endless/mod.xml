@@ -1,0 +1,37 @@
+<? xml version="1.0" ?>
+<Mod>
+    <Id>xep-endless</Id>
+    <Name>Forge of Eternal Triumph</Name>
+
+    <Category>Level Pack</Category>
+
+    <Thumbnail>Data/Images/xep_endless/another_perspective.jpg</Thumbnail>
+    <PreviewImage>Data/Images/xep_endless/whole_view.jpg</PreviewImage>
+
+    <Description>Forge your combat platforming skills against an endless horde as you jump above a lake of lava. Try to get the highest score you can before you die. However, as your score increases, the difficulty does too. You will be on the move constantly to avoid being outnumbered. Furthermore, special runner enemies will appear that will heal you if you can catch up to them and kill them. As the pressure from the enemies increases, you must make sure your movement remains solid, as a misjudged jump can be fatal. This mod also includes the tools to make your own level with this game mode.</Description>
+    <Version>1.0.3</Version>
+    <Author>Xephelium</Author>
+
+    <Tag>level</Tag>
+    <Tag>Endless</Tag>
+    <Tag>March2018jam</Tag>
+    <Tag>Split Screen</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+
+    <Level title="Forge Solo" thumbnail="Images/xep_endless/whole_view.jpg">xep_endless/forge_sp.xml</Level>
+    <Level title="Forge VS" thumbnail="Images/xep_endless/whole_view.jpg">xep_endless/forge_vs.xml</Level>
+    <Item category="Endless Level" 
+          title="Endless Level" 
+          path="Data/Objects/xep_endless/endless_level.xml" 
+          thumbnail="Data/UI/xep_endless/thumbs/infinity.png" />
+    <Item category="Endless Level" 
+          title="Runner Hiding Spot" 
+          path="Data/Objects/xep_endless/runner_hiding_spot.xml" 
+          thumbnail="Data/UI/xep_endless/thumbs/rabbit_foot.png" />
+    <Item category="Endless Level" 
+          title="Character Spawn Point" 
+          path="Data/Objects/xep_endless/character_spawn.xml" 
+          thumbnail="Data/UI/xep_endless/thumbs/character_spawn.png" />
+</Mod>
